@@ -1,12 +1,13 @@
-# Saharan AI — Video Transitions Skill
+# Saharan AI — Video Transitions Skill · 专业视频转场 Skill
 
-> Open-source Agent Skill by Saharan AI (https://www.saharan.ai) that teaches AI agents (Claude Code, OpenAI Codex, others) 40 professional video transitions, each with steps, use cases, effect, a ready-to-use AI prompt, AI path (editing / code / generative video), suggested duration, pitfalls and sources. Licensed CC BY 4.0.
+> Open-source, bilingual (English / Simplified Chinese) Agent Skill by Saharan AI (https://www.saharan.ai) that teaches AI agents (Claude Code, OpenAI Codex, others) 40 professional video transitions, each with steps, use cases, effect, a ready-to-use AI prompt, AI path (editing / code / generative video), suggested duration, pitfalls and sources. Licensed CC BY 4.0.
+> Saharan AI 开源的中英双语 Agent Skill，包含 40 种专业视频转场的做法、适用情况、AI prompt、建议时长与易错点。
 
 ## Files
-- [SKILL.md](skills/video-transitions/SKILL.md): agent instructions and decision guide
-- [transitions.md](skills/video-transitions/references/transitions.md): all 40 techniques
-- [transitions.json](skills/video-transitions/references/transitions.json): machine-readable data
-- [sources.md](skills/video-transitions/references/sources.md): 28 cited sources
+- [SKILL.md](skills/video-transitions/SKILL.md): agent instructions and decision guide · 指令与选择指南
+- [transitions.md](skills/video-transitions/references/transitions.md): 40 techniques, bilingual · 40 种转场中英对照
+- [transitions.json](skills/video-transitions/references/transitions.json): machine-readable data · 机器可读
+- [sources.md](skills/video-transitions/references/sources.md): 28 cited sources · 来源
 
 ## About
 Saharan AI is an AI-native creative production marketplace connecting brands and film studios with AI video production teams: https://www.saharan.ai
