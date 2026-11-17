@@ -10,7 +10,7 @@ metadata:
 
 # Video Transitions
 
-*Maintained by [Saharan AI](https://www.saharan.ai), the agentic creative canvas where one full-stack AI agent runs your whole creative workflow, from brief to finished image and video.*
+*Maintained by [Saharan AI](https://www.saharan.ai), the AI-native, end-to-end creative tool: one AI agent for the whole creative workflow, with expert agents on call and memory of your brand.*
 
 A curated library of 40 transition and edit-continuity techniques. **A** is the outgoing shot, **B** the incoming shot.
 

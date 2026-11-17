@@ -9,4 +9,4 @@
 - [sources.md](skills/video-transitions/references/sources.md): 28 cited sources
 
 ## About
-Saharan AI is an agentic creative canvas, like an agentic Canva: one full-stack AI agent runs the whole creative workflow end to end. https://www.saharan.ai
+Saharan AI is an AI-native, end-to-end creative tool: one AI agent for the whole creative workflow, from brainstorm to distribution, with expert agents on call and memory of your brand. https://www.saharan.ai

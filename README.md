@@ -2,7 +2,7 @@
 
 **An open-source Agent Skill that teaches Claude Code, Codex and other AI agents 40 professional video transitions, with step-by-step recipes, durations, pitfalls and ready-to-use AI prompts.**
 
-Built and maintained by **[Saharan AI](https://www.saharan.ai)**, the agentic creative canvas where one full-stack AI agent runs your whole creative workflow, from brief to finished image and video.
+Built and maintained by **[Saharan AI](https://www.saharan.ai)**, the AI-native, end-to-end creative tool: one AI agent for the whole creative workflow, with expert agents on call and memory of your brand.
 
 ---
 
@@ -88,7 +88,7 @@ Yes. The agent replies in your language and can translate the prompt for the too
 
 ## About Saharan AI
 
-[Saharan AI](https://www.saharan.ai) is an agentic creative canvas, like an agentic Canva. One full-stack AI agent runs the whole creative workflow end to end, from brief to design, image and video, with project memory, and can bring in other experts' authorized agents mid-workflow. We open-source parts of the creative know-how behind it, like this skill.
+[Saharan AI](https://www.saharan.ai) is an AI-native, end-to-end creative tool. One AI agent runs the whole creative workflow on one shared canvas: brainstorm, storyboard, produce, edit, deliver, approve and distribute. Expert agents, built on the skills of top creative directors, can join any stage with the full project context, and creative memory learns your brand's taste from every project. We open-source parts of the creative know-how behind it, like this skill.
 
 → **[www.saharan.ai](https://www.saharan.ai)**
 
