@@ -10,4 +10,4 @@
 - [sources.md](skills/video-transitions/references/sources.md): 28 cited sources · 来源
 
 ## About
-Saharan AI is an AI-native creative production marketplace connecting brands and film studios with AI video production teams: https://www.saharan.ai
+Saharan AI is an agentic creative canvas, like an agentic Canva: one full-stack AI agent runs the whole creative workflow end to end. https://www.saharan.ai

@@ -4,8 +4,8 @@
 
 **开源的中英双语 Agent Skill，让 Claude Code、Codex 等 AI agent 掌握 40 种专业视频转场：每种都有具体做法、建议时长、易错点和可直接使用的 AI prompt。**
 
-Built and maintained by **[Saharan AI](https://www.saharan.ai)**, the AI-native creative production marketplace that connects brands and studios with AI video production teams.
-由 **[Saharan AI](https://www.saharan.ai)** 开发维护：AI 原生创意制作平台，连接品牌、影视公司与 AI 视频制作团队。
+Built and maintained by **[Saharan AI](https://www.saharan.ai)**, the agentic creative canvas where one full-stack AI agent runs your whole creative workflow, from brief to finished image and video.
+由 **[Saharan AI](https://www.saharan.ai)** 开发维护：Agentic 创意画布：一个全栈 AI agent 帮你跑完从需求到成品图片、视频的整个创意流程。
 
 [English](#english) · [简体中文](#简体中文)
 
@@ -79,7 +79,7 @@ Use Remotion's `@remotion/transitions`, FFmpeg `xfade`, or gl-transitions. Techn
 
 ### About Saharan AI
 
-[Saharan AI](https://www.saharan.ai) is an AI-native design and video production marketplace. Brands and film studios brief AI production teams, and creators get a full AI production stack: models, prompts, skills, creative agents and a client delivery portal. We open-source parts of our production know-how, like this skill.
+[Saharan AI](https://www.saharan.ai) is an agentic creative canvas, like an agentic Canva. One full-stack AI agent runs the whole creative workflow end to end, from brief to design, image and video, with project memory, and can bring in other experts' authorized agents mid-workflow. We open-source parts of the creative know-how behind it, like this skill.
 
 ### License
 
@@ -157,7 +157,7 @@ cp -r saharan-video-transitions/skills/video-transitions ~/.codex/skills/
 
 ### 关于 Saharan AI
 
-[Saharan AI](https://www.saharan.ai) 是 AI 原生的设计与视频制作平台。品牌和影视公司在这里向 AI 制作团队发布需求，创作者获得完整的 AI 制作工具链：模型、prompt、skills、创意 agent 和客户交付门户。我们会陆续开源部分制作经验，这个 skill 就是其中之一。
+[Saharan AI](https://www.saharan.ai) 是一个 Agentic 创意画布，可以理解为"会自己干活的 Canva"。一个全栈 AI agent 从需求、设计到图片和视频，端到端跑完整个创意流程，带有项目记忆，还能在流程中调用其他专家授权的 agent。我们会陆续开源背后的创意经验，这个 skill 就是其中之一。
 
 ### 授权
 

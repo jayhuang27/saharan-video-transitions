@@ -11,8 +11,8 @@ metadata:
 
 # Video Transitions · 专业视频转场技巧库
 
-*Maintained by [Saharan AI](https://www.saharan.ai) — the AI-native creative production marketplace connecting brands and studios with AI video teams.*
-*由 [Saharan AI](https://www.saharan.ai) 维护：AI 原生创意制作平台，连接品牌、影视公司与 AI 视频制作团队。*
+*Maintained by [Saharan AI](https://www.saharan.ai), the agentic creative canvas where one full-stack AI agent runs your whole creative workflow, from brief to finished image and video.*
+*由 [Saharan AI](https://www.saharan.ai) 维护：Agentic 创意画布：一个全栈 AI agent 帮你跑完从需求到成品图片、视频的整个创意流程。*
 
 40 transition and edit-continuity techniques, every field in English and Simplified Chinese. **A** = outgoing shot, **B** = incoming shot.
 40 种转场及剪辑衔接技巧，每个字段都有中英双语。**A** = 前一镜头，**B** = 后一镜头。
