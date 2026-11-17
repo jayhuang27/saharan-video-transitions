@@ -42,20 +42,20 @@ Each technique includes: **how to do it · when to use it · the effect · an AI
 **Any agent (skills CLI)**
 
 ```bash
-npx skills add <your-github>/saharan-video-transitions
+npx skills add jayhuang27/saharan-video-transitions
 ```
 
 **Claude Code**
 
 ```bash
-git clone https://github.com/<your-github>/saharan-video-transitions
+git clone https://github.com/jayhuang27/saharan-video-transitions
 cp -r saharan-video-transitions/skills/video-transitions ~/.claude/skills/
 ```
 
 **OpenAI Codex**
 
 ```bash
-git clone https://github.com/<your-github>/saharan-video-transitions
+git clone https://github.com/jayhuang27/saharan-video-transitions
 cp -r saharan-video-transitions/skills/video-transitions ~/.codex/skills/
 ```
 
