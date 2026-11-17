@@ -3,46 +3,19 @@
   "homepage": "https://www.saharan.ai",
   "license": "CC-BY-4.0",
   "retrieved": "2026-11-15",
-  "note": "A = outgoing shot 前一镜头, B = incoming shot 后一镜头",
+  "note": "A = outgoing shot, B = incoming shot",
   "transitions": [
     {
       "id": 1,
-      "category": {
-        "zh": "基础叙事",
-        "en": "Basic narrative"
-      },
-      "name": {
-        "zh": "硬切",
-        "en": "Hard Cut"
-      },
-      "how": {
-        "zh": "1 选A结束与B开始动作点。2 删除缝隙直接拼接。3 检查视线、动作与声音。",
-        "en": "1 Choose the end point of A and the start point of B. 2 Remove the gap and butt them together. 3 Check eyeline, action and sound."
-      },
-      "use_when": {
-        "zh": "对白、纪录片、信息密集内容",
-        "en": "Dialogue, documentary, information-dense content"
-      },
-      "effect": {
-        "zh": "干净直接，保持叙事节奏。",
-        "en": "Clean and direct; keeps the narrative pace."
-      },
-      "prompt": {
-        "zh": "A结束后直接硬切B，保持动作连续，不加过渡。",
-        "en": "Hard cut from the end of A straight to B, keep the action continuous, no transition effect."
-      },
-      "ai_path": {
-        "zh": "剪辑AI",
-        "en": "Editing AI"
-      },
-      "duration": {
-        "zh": "瞬时",
-        "en": "Instant"
-      },
-      "pitfalls": {
-        "zh": "先保证镜头逻辑成立。",
-        "en": "Make sure the shot logic works first."
-      },
+      "category": "Basic narrative",
+      "name": "Hard Cut",
+      "how": "1 Choose the end point of A and the start point of B. 2 Remove the gap and butt them together. 3 Check eyeline, action and sound.",
+      "use_when": "Dialogue, documentary, information-dense content",
+      "effect": "Clean and direct; keeps the narrative pace.",
+      "prompt": "Hard cut from the end of A straight to B, keep the action continuous, no transition effect.",
+      "ai_path": "Editing AI",
+      "duration": "Instant",
+      "pitfalls": "Make sure the shot logic works first.",
       "sources": [
         "S01"
       ],
@@ -50,42 +23,15 @@
     },
     {
       "id": 2,
-      "category": {
-        "zh": "基础叙事",
-        "en": "Basic narrative"
-      },
-      "name": {
-        "zh": "动作接切",
-        "en": "Cut on Action"
-      },
-      "how": {
-        "zh": "1 找动作进行中的切点。2 B从同一动作后续接入。3 逐帧修剪重复或缺失动作。",
-        "en": "1 Find a cut point mid-action. 2 Bring B in on the continuation of the same action. 3 Trim frame by frame to remove repeated or missing motion."
-      },
-      "use_when": {
-        "zh": "开门、转身、拿取、运动",
-        "en": "Opening doors, turning, picking things up, sport"
-      },
-      "effect": {
-        "zh": "用动作引导注意，让切点不显眼。",
-        "en": "Uses movement to lead the eye so the cut goes unnoticed."
-      },
-      "prompt": {
-        "zh": "在A抬手中途切B的后续动作，匹配方向和速度。",
-        "en": "Cut from A mid-way through raising the hand to B continuing the motion; match direction and speed."
-      },
-      "ai_path": {
-        "zh": "剪辑AI",
-        "en": "Editing AI"
-      },
-      "duration": {
-        "zh": "瞬时",
-        "en": "Instant"
-      },
-      "pitfalls": {
-        "zh": "动作阶段和轴线需一致。",
-        "en": "Action phase and screen axis must match."
-      },
+      "category": "Basic narrative",
+      "name": "Cut on Action",
+      "how": "1 Find a cut point mid-action. 2 Bring B in on the continuation of the same action. 3 Trim frame by frame to remove repeated or missing motion.",
+      "use_when": "Opening doors, turning, picking things up, sport",
+      "effect": "Uses movement to lead the eye so the cut goes unnoticed.",
+      "prompt": "Cut from A mid-way through raising the hand to B continuing the motion; match direction and speed.",
+      "ai_path": "Editing AI",
+      "duration": "Instant",
+      "pitfalls": "Action phase and screen axis must match.",
       "sources": [
         "S02"
       ],
@@ -93,42 +39,15 @@
     },
     {
       "id": 3,
-      "category": {
-        "zh": "匹配剪辑",
-        "en": "Match cuts"
-      },
-      "name": {
-        "zh": "形状匹配",
-        "en": "Graphic Match"
-      },
-      "how": {
-        "zh": "1 选相似轮廓。2 调位置、比例、旋转以对齐。3 在构图最相近处切换。",
-        "en": "1 Pick similar silhouettes. 2 Align position, scale and rotation. 3 Cut where the compositions are closest."
-      },
-      "use_when": {
-        "zh": "品牌标志、圆形物件、跨时代叙事",
-        "en": "Brand logos, round objects, cross-era storytelling"
-      },
-      "effect": {
-        "zh": "建立视觉联系或比喻。",
-        "en": "Creates a visual link or metaphor."
-      },
-      "prompt": {
-        "zh": "将A的圆形主体对齐B的圆形主体，匹配大小后硬切。",
-        "en": "Align the round subject in A with the round subject in B, match size, then hard cut."
-      },
-      "ai_path": {
-        "zh": "剪辑AI",
-        "en": "Editing AI"
-      },
-      "duration": {
-        "zh": "瞬时",
-        "en": "Instant"
-      },
-      "pitfalls": {
-        "zh": "保持主体落点一致，避免额外变形。",
-        "en": "Keep the subject's position identical; avoid extra distortion."
-      },
+      "category": "Match cuts",
+      "name": "Graphic Match",
+      "how": "1 Pick similar silhouettes. 2 Align position, scale and rotation. 3 Cut where the compositions are closest.",
+      "use_when": "Brand logos, round objects, cross-era storytelling",
+      "effect": "Creates a visual link or metaphor.",
+      "prompt": "Align the round subject in A with the round subject in B, match size, then hard cut.",
+      "ai_path": "Editing AI",
+      "duration": "Instant",
+      "pitfalls": "Keep the subject's position identical; avoid extra distortion.",
       "sources": [
         "S02"
       ],
@@ -136,42 +55,15 @@
     },
     {
       "id": 4,
-      "category": {
-        "zh": "匹配剪辑",
-        "en": "Match cuts"
-      },
-      "name": {
-        "zh": "色彩匹配",
-        "en": "Color Match"
-      },
-      "how": {
-        "zh": "1 找主色相似镜头。2 校正色温、亮度。3 在相同色块占据视野时切B。",
-        "en": "1 Find shots with a similar dominant colour. 2 Correct colour temperature and brightness. 3 Cut to B when the same colour fills the frame."
-      },
-      "use_when": {
-        "zh": "时尚、美食、旅行、品牌色",
-        "en": "Fashion, food, travel, brand colours"
-      },
-      "effect": {
-        "zh": "跨场景仍保持色彩连续。",
-        "en": "Keeps colour continuity across scenes."
-      },
-      "prompt": {
-        "zh": "在A与B主色一致时硬切，统一亮度与色温。",
-        "en": "Hard cut when A and B share the same dominant colour; unify brightness and colour temperature."
-      },
-      "ai_path": {
-        "zh": "剪辑AI",
-        "en": "Editing AI"
-      },
-      "duration": {
-        "zh": "瞬时",
-        "en": "Instant"
-      },
-      "pitfalls": {
-        "zh": "颜色匹配不等于两个镜头套同一LUT。",
-        "en": "Colour matching is not the same as applying one LUT to both shots."
-      },
+      "category": "Match cuts",
+      "name": "Color Match",
+      "how": "1 Find shots with a similar dominant colour. 2 Correct colour temperature and brightness. 3 Cut to B when the same colour fills the frame.",
+      "use_when": "Fashion, food, travel, brand colours",
+      "effect": "Keeps colour continuity across scenes.",
+      "prompt": "Hard cut when A and B share the same dominant colour; unify brightness and colour temperature.",
+      "ai_path": "Editing AI",
+      "duration": "Instant",
+      "pitfalls": "Colour matching is not the same as applying one LUT to both shots.",
       "sources": [
         "S02"
       ],
@@ -179,42 +71,15 @@
     },
     {
       "id": 5,
-      "category": {
-        "zh": "匹配剪辑",
-        "en": "Match cuts"
-      },
-      "name": {
-        "zh": "运动匹配",
-        "en": "Motion Match"
-      },
-      "how": {
-        "zh": "1 找同方向运动。2 校准速度与主体位置。3 在运动相位相近处切换。",
-        "en": "1 Find movement in the same direction. 2 Align speed and subject position. 3 Cut where the motion phases are closest."
-      },
-      "use_when": {
-        "zh": "抛接、旋转商品、运动集锦",
-        "en": "Throws and catches, rotating products, sports montages"
-      },
-      "effect": {
-        "zh": "把不同场景接成同一股动势。",
-        "en": "Joins different scenes into one continuous momentum."
-      },
-      "prompt": {
-        "zh": "A向右运动接B向右运动，匹配速度和主体位置后切换。",
-        "en": "A moving right cuts to B moving right; match speed and subject position, then cut."
-      },
-      "ai_path": {
-        "zh": "剪辑AI",
-        "en": "Editing AI"
-      },
-      "duration": {
-        "zh": "瞬时",
-        "en": "Instant"
-      },
-      "pitfalls": {
-        "zh": "可跨场景；不同于同一动作的连续接切。",
-        "en": "Can cross scenes; different from a continuity cut on the same action."
-      },
+      "category": "Match cuts",
+      "name": "Motion Match",
+      "how": "1 Find movement in the same direction. 2 Align speed and subject position. 3 Cut where the motion phases are closest.",
+      "use_when": "Throws and catches, rotating products, sports montages",
+      "effect": "Joins different scenes into one continuous momentum.",
+      "prompt": "A moving right cuts to B moving right; match speed and subject position, then cut.",
+      "ai_path": "Editing AI",
+      "duration": "Instant",
+      "pitfalls": "Can cross scenes; different from a continuity cut on the same action.",
       "sources": [
         "S02"
       ],
@@ -222,42 +87,15 @@
     },
     {
       "id": 6,
-      "category": {
-        "zh": "基础叙事",
-        "en": "Basic narrative"
-      },
-      "name": {
-        "zh": "跳切",
-        "en": "Jump Cut"
-      },
-      "how": {
-        "zh": "1 固定同机位素材。2 删停顿或中间时间。3 保留有意的姿态跳变。",
-        "en": "1 Use footage from the same camera position. 2 Remove pauses or intervening time. 3 Keep the intentional jump in pose."
-      },
-      "use_when": {
-        "zh": "口播、教程、时间压缩",
-        "en": "Talking-head videos, tutorials, time compression"
-      },
-      "effect": {
-        "zh": "提速并强调时间跳跃。",
-        "en": "Speeds things up and emphasises the passage of time."
-      },
-      "prompt": {
-        "zh": "删除A中的停顿，保留同机位跳切，语句衔接自然。",
-        "en": "Remove the pauses in A, keep same-angle jump cuts, and make the sentences flow naturally."
-      },
-      "ai_path": {
-        "zh": "剪辑AI",
-        "en": "Editing AI"
-      },
-      "duration": {
-        "zh": "瞬时",
-        "en": "Instant"
-      },
-      "pitfalls": {
-        "zh": "需接受明显跳变，避免剪断词尾。",
-        "en": "Accept the visible jump; don't clip the ends of words."
-      },
+      "category": "Basic narrative",
+      "name": "Jump Cut",
+      "how": "1 Use footage from the same camera position. 2 Remove pauses or intervening time. 3 Keep the intentional jump in pose.",
+      "use_when": "Talking-head videos, tutorials, time compression",
+      "effect": "Speeds things up and emphasises the passage of time.",
+      "prompt": "Remove the pauses in A, keep same-angle jump cuts, and make the sentences flow naturally.",
+      "ai_path": "Editing AI",
+      "duration": "Instant",
+      "pitfalls": "Accept the visible jump; don't clip the ends of words.",
       "sources": [
         "S01"
       ],
@@ -265,42 +103,15 @@
     },
     {
       "id": 7,
-      "category": {
-        "zh": "基础叙事",
-        "en": "Basic narrative"
-      },
-      "name": {
-        "zh": "反差切",
-        "en": "Smash / Contrast Cut"
-      },
-      "how": {
-        "zh": "1 选情绪或声音反差大的两段。2 卡反应点硬切。3 同步切换或突停声音。",
-        "en": "1 Pick two segments with strong emotional or sonic contrast. 2 Hard cut on the reaction point. 3 Switch or cut the sound abruptly at the same moment."
-      },
-      "use_when": {
-        "zh": "喜剧反转、梦醒、强烈情绪变化",
-        "en": "Comedic reversals, waking from a dream, sharp mood shifts"
-      },
-      "effect": {
-        "zh": "制造惊讶、反讽或冲击。",
-        "en": "Creates surprise, irony or impact."
-      },
-      "prompt": {
-        "zh": "从A的喧闹瞬间硬切B的安静，声音同步骤停。",
-        "en": "Hard cut from the loudest moment of A to the silence of B; the sound stops at the same instant."
-      },
-      "ai_path": {
-        "zh": "剪辑AI",
-        "en": "Editing AI"
-      },
-      "duration": {
-        "zh": "瞬时",
-        "en": "Instant"
-      },
-      "pitfalls": {
-        "zh": "叙事应支持反差，不只为炫技。",
-        "en": "The story should justify the contrast; don't do it just to show off."
-      },
+      "category": "Basic narrative",
+      "name": "Smash / Contrast Cut",
+      "how": "1 Pick two segments with strong emotional or sonic contrast. 2 Hard cut on the reaction point. 3 Switch or cut the sound abruptly at the same moment.",
+      "use_when": "Comedic reversals, waking from a dream, sharp mood shifts",
+      "effect": "Creates surprise, irony or impact.",
+      "prompt": "Hard cut from the loudest moment of A to the silence of B; the sound stops at the same instant.",
+      "ai_path": "Editing AI",
+      "duration": "Instant",
+      "pitfalls": "The story should justify the contrast; don't do it just to show off.",
       "sources": [
         "S01"
       ],
@@ -308,42 +119,15 @@
     },
     {
       "id": 8,
-      "category": {
-        "zh": "基础叙事",
-        "en": "Basic narrative"
-      },
-      "name": {
-        "zh": "插入镜头桥接",
-        "en": "Cutaway"
-      },
-      "how": {
-        "zh": "1 在A删改处插相关细节。2 原对白连续播放。3 接回主镜头或进入B。",
-        "en": "1 Insert a relevant detail over the edit point in A. 2 Keep the original dialogue playing continuously. 3 Cut back to the main shot or into B."
-      },
-      "use_when": {
-        "zh": "采访删句、教学、纪录片",
-        "en": "Removing lines from interviews, tutorials, documentary"
-      },
-      "effect": {
-        "zh": "遮住画面跳切并补充信息。",
-        "en": "Hides the jump cut and adds information."
-      },
-      "prompt": {
-        "zh": "在A的删句处插入相关细节B，保持对白连续。",
-        "en": "Insert related detail shot B over the removed line in A; keep the dialogue continuous."
-      },
-      "ai_path": {
-        "zh": "剪辑AI",
-        "en": "Editing AI"
-      },
-      "duration": {
-        "zh": "插镜约1–3秒",
-        "en": "About 1–3 s for the insert"
-      },
-      "pitfalls": {
-        "zh": "这是镜头组织技巧，不是软件特效。",
-        "en": "This is a shot-structure technique, not a software effect."
-      },
+      "category": "Basic narrative",
+      "name": "Cutaway",
+      "how": "1 Insert a relevant detail over the edit point in A. 2 Keep the original dialogue playing continuously. 3 Cut back to the main shot or into B.",
+      "use_when": "Removing lines from interviews, tutorials, documentary",
+      "effect": "Hides the jump cut and adds information.",
+      "prompt": "Insert related detail shot B over the removed line in A; keep the dialogue continuous.",
+      "ai_path": "Editing AI",
+      "duration": "About 1–3 s for the insert",
+      "pitfalls": "This is a shot-structure technique, not a software effect.",
       "sources": [
         "S01"
       ],
@@ -351,42 +135,15 @@
     },
     {
       "id": 9,
-      "category": {
-        "zh": "声音衔接",
-        "en": "Sound transitions"
-      },
-      "name": {
-        "zh": "声音先入",
-        "en": "J-cut"
-      },
-      "how": {
-        "zh": "1 分开音画剪辑点。2 B声音先于B画面进入。3 平衡交接处音量。",
-        "en": "1 Split the audio and video edit points. 2 Let B's sound start before B's picture. 3 Balance levels across the handover."
-      },
-      "use_when": {
-        "zh": "采访、进入新地点、悬念预告",
-        "en": "Interviews, arriving at a new location, suspenseful teasers"
-      },
-      "effect": {
-        "zh": "先用声音引导观众期待。",
-        "en": "Uses sound to set up the viewer's expectation."
-      },
-      "prompt": {
-        "zh": "B的声音提前0.5秒进入，再从A切到B画面。",
-        "en": "Bring B's audio in 0.5 s early, then cut from A to B's picture."
-      },
-      "ai_path": {
-        "zh": "剪辑AI",
-        "en": "Editing AI"
-      },
-      "duration": {
-        "zh": "声音提前0.3–1秒",
-        "en": "Audio leads by 0.3–1 s"
-      },
-      "pitfalls": {
-        "zh": "需提供可独立编辑的B音轨。",
-        "en": "Requires an independently editable B audio track."
-      },
+      "category": "Sound transitions",
+      "name": "J-cut",
+      "how": "1 Split the audio and video edit points. 2 Let B's sound start before B's picture. 3 Balance levels across the handover.",
+      "use_when": "Interviews, arriving at a new location, suspenseful teasers",
+      "effect": "Uses sound to set up the viewer's expectation.",
+      "prompt": "Bring B's audio in 0.5 s early, then cut from A to B's picture.",
+      "ai_path": "Editing AI",
+      "duration": "Audio leads by 0.3–1 s",
+      "pitfalls": "Requires an independently editable B audio track.",
       "sources": [
         "S03"
       ],
@@ -394,42 +151,15 @@
     },
     {
       "id": 10,
-      "category": {
-        "zh": "声音衔接",
-        "en": "Sound transitions"
-      },
-      "name": {
-        "zh": "声音延续",
-        "en": "L-cut"
-      },
-      "how": {
-        "zh": "1 先将画面切B。2 A对白或环境声继续。3 在自然句尾淡出A音轨。",
-        "en": "1 Cut the picture to B first. 2 Let A's dialogue or ambience continue. 3 Fade out A's audio at a natural sentence end."
-      },
-      "use_when": {
-        "zh": "访谈反应镜头、旁白配B-roll",
-        "en": "Interview reaction shots, voice-over over B-roll"
-      },
-      "effect": {
-        "zh": "保留情绪和语义连续。",
-        "en": "Preserves emotional and semantic continuity."
-      },
-      "prompt": {
-        "zh": "先切到B画面，A的对白继续至句尾后淡出。",
-        "en": "Cut to B's picture first; let A's dialogue continue to the end of the sentence, then fade out."
-      },
-      "ai_path": {
-        "zh": "剪辑AI",
-        "en": "Editing AI"
-      },
-      "duration": {
-        "zh": "声音延续0.5–2秒",
-        "en": "Audio trails by 0.5–2 s"
-      },
-      "pitfalls": {
-        "zh": "避免与B对白互相遮盖。",
-        "en": "Avoid A's audio masking B's dialogue."
-      },
+      "category": "Sound transitions",
+      "name": "L-cut",
+      "how": "1 Cut the picture to B first. 2 Let A's dialogue or ambience continue. 3 Fade out A's audio at a natural sentence end.",
+      "use_when": "Interview reaction shots, voice-over over B-roll",
+      "effect": "Preserves emotional and semantic continuity.",
+      "prompt": "Cut to B's picture first; let A's dialogue continue to the end of the sentence, then fade out.",
+      "ai_path": "Editing AI",
+      "duration": "Audio trails by 0.5–2 s",
+      "pitfalls": "Avoid A's audio masking B's dialogue.",
       "sources": [
         "S03"
       ],
@@ -437,42 +167,15 @@
     },
     {
       "id": 11,
-      "category": {
-        "zh": "声音衔接",
-        "en": "Sound transitions"
-      },
-      "name": {
-        "zh": "声音桥",
-        "en": "Sound Bridge"
-      },
-      "how": {
-        "zh": "1 选可跨场景延续的声音。2 把声音铺过画面切点。3 混入B环境声。",
-        "en": "1 Pick a sound that can carry across scenes. 2 Lay it over the picture cut. 3 Mix in B's ambience."
-      },
-      "use_when": {
-        "zh": "跨地域蒙太奇、回忆、主题关联",
-        "en": "Cross-location montages, flashbacks, thematic links"
-      },
-      "effect": {
-        "zh": "听觉上连结两个空间。",
-        "en": "Connects two spaces through sound."
-      },
-      "prompt": {
-        "zh": "用同一段雨声贯穿A到B，在B中逐渐混入新环境声。",
-        "en": "Carry the same rain sound from A into B, gradually mixing in B's new ambience."
-      },
-      "ai_path": {
-        "zh": "剪辑AI",
-        "en": "Editing AI"
-      },
-      "duration": {
-        "zh": "跨切点约0.5–2秒",
-        "en": "About 0.5–2 s across the cut"
-      },
-      "pitfalls": {
-        "zh": "与J/L cut有关，但不要求使用对白。",
-        "en": "Related to J/L-cuts but doesn't require dialogue."
-      },
+      "category": "Sound transitions",
+      "name": "Sound Bridge",
+      "how": "1 Pick a sound that can carry across scenes. 2 Lay it over the picture cut. 3 Mix in B's ambience.",
+      "use_when": "Cross-location montages, flashbacks, thematic links",
+      "effect": "Connects two spaces through sound.",
+      "prompt": "Carry the same rain sound from A into B, gradually mixing in B's new ambience.",
+      "ai_path": "Editing AI",
+      "duration": "About 0.5–2 s across the cut",
+      "pitfalls": "Related to J/L-cuts but doesn't require dialogue.",
       "sources": [
         "S02"
       ],
@@ -480,42 +183,15 @@
     },
     {
       "id": 12,
-      "category": {
-        "zh": "淡化与亮度",
-        "en": "Fades & light"
-      },
-      "name": {
-        "zh": "交叉叠化",
-        "en": "Cross Dissolve"
-      },
-      "how": {
-        "zh": "1 保留两段额外素材。2 重叠A尾B头。3 A透明度降、B升并检查重影。",
-        "en": "1 Keep extra handles on both clips. 2 Overlap A's tail with B's head. 3 Fade A's opacity down and B's up; check for ghosting."
-      },
-      "use_when": {
-        "zh": "时间流逝、回忆、舒缓风景",
-        "en": "Passage of time, memories, calm landscapes"
-      },
-      "effect": {
-        "zh": "柔和过渡，暗示时间关系。",
-        "en": "Soft transition that implies a time relationship."
-      },
-      "prompt": {
-        "zh": "A与B做0.6秒交叉叠化，曝光平稳。",
-        "en": "0.6 s cross dissolve from A to B with steady exposure."
-      },
-      "ai_path": {
-        "zh": "剪辑AI／代码AI",
-        "en": "Editing AI / Code AI"
-      },
-      "duration": {
-        "zh": "0.4–1秒",
-        "en": "0.4–1 s"
-      },
-      "pitfalls": {
-        "zh": "两张人脸叠在一起可能产生杂乱重影。",
-        "en": "Two overlapping faces can produce messy ghosting."
-      },
+      "category": "Fades & light",
+      "name": "Cross Dissolve",
+      "how": "1 Keep extra handles on both clips. 2 Overlap A's tail with B's head. 3 Fade A's opacity down and B's up; check for ghosting.",
+      "use_when": "Passage of time, memories, calm landscapes",
+      "effect": "Soft transition that implies a time relationship.",
+      "prompt": "0.6 s cross dissolve from A to B with steady exposure.",
+      "ai_path": "Editing AI / Code AI",
+      "duration": "0.4–1 s",
+      "pitfalls": "Two overlapping faces can produce messy ghosting.",
       "sources": [
         "S07",
         "S17"
@@ -524,42 +200,15 @@
     },
     {
       "id": 13,
-      "category": {
-        "zh": "淡化与亮度",
-        "en": "Fades & light"
-      },
-      "name": {
-        "zh": "淡黑再入",
-        "en": "Dip to Black"
-      },
-      "how": {
-        "zh": "1 A渐暗至黑。2 可短暂停黑。3 B从黑恢复正常曝光。",
-        "en": "1 Fade A down to black. 2 Optionally hold on black briefly. 3 Bring B up from black to normal exposure."
-      },
-      "use_when": {
-        "zh": "章节结束、时间跨度大、段落分隔",
-        "en": "End of a chapter, large time jumps, section breaks"
-      },
-      "effect": {
-        "zh": "产生停顿与明确段落感。",
-        "en": "Creates a pause and a clear sense of sections."
-      },
-      "prompt": {
-        "zh": "A用0.3秒淡至黑，再用0.3秒淡入B。",
-        "en": "Fade A to black over 0.3 s, then fade into B over 0.3 s."
-      },
-      "ai_path": {
-        "zh": "剪辑AI／代码AI",
-        "en": "Editing AI / Code AI"
-      },
-      "duration": {
-        "zh": "0.6–1.2秒",
-        "en": "0.6–1.2 s"
-      },
-      "pitfalls": {
-        "zh": "频繁淡黑容易被误读为结束。",
-        "en": "Frequent dips to black can be mistaken for the ending."
-      },
+      "category": "Fades & light",
+      "name": "Dip to Black",
+      "how": "1 Fade A down to black. 2 Optionally hold on black briefly. 3 Bring B up from black to normal exposure.",
+      "use_when": "End of a chapter, large time jumps, section breaks",
+      "effect": "Creates a pause and a clear sense of sections.",
+      "prompt": "Fade A to black over 0.3 s, then fade into B over 0.3 s.",
+      "ai_path": "Editing AI / Code AI",
+      "duration": "0.6–1.2 s",
+      "pitfalls": "Frequent dips to black can be mistaken for the ending.",
       "sources": [
         "S07"
       ],
@@ -567,42 +216,15 @@
     },
     {
       "id": 14,
-      "category": {
-        "zh": "淡化与亮度",
-        "en": "Fades & light"
-      },
-      "name": {
-        "zh": "闪白",
-        "en": "Flash / Dip to White"
-      },
-      "how": {
-        "zh": "1 提亮A尾。2 在白峰值切B。3 B迅速恢复曝光。",
-        "en": "1 Brighten A's tail. 2 Cut to B at peak white. 3 Bring B back to normal exposure quickly."
-      },
-      "use_when": {
-        "zh": "闪光灯、回忆触发、音乐卡点",
-        "en": "Camera flashes, memory triggers, music beats"
-      },
-      "effect": {
-        "zh": "瞬间冲击，遮盖场景变化。",
-        "en": "Instant impact that masks the scene change."
-      },
-      "prompt": {
-        "zh": "A闪白后切B，0.2秒内恢复正常曝光，只闪一次。",
-        "en": "Flash A to white then cut to B, return to normal exposure within 0.2 s, flash only once."
-      },
-      "ai_path": {
-        "zh": "剪辑AI／代码AI",
-        "en": "Editing AI / Code AI"
-      },
-      "duration": {
-        "zh": "0.15–0.3秒",
-        "en": "0.15–0.3 s"
-      },
-      "pitfalls": {
-        "zh": "大面积连续闪烁应避免。",
-        "en": "Avoid repeated full-screen flashing."
-      },
+      "category": "Fades & light",
+      "name": "Flash / Dip to White",
+      "how": "1 Brighten A's tail. 2 Cut to B at peak white. 3 Bring B back to normal exposure quickly.",
+      "use_when": "Camera flashes, memory triggers, music beats",
+      "effect": "Instant impact that masks the scene change.",
+      "prompt": "Flash A to white then cut to B, return to normal exposure within 0.2 s, flash only once.",
+      "ai_path": "Editing AI / Code AI",
+      "duration": "0.15–0.3 s",
+      "pitfalls": "Avoid repeated full-screen flashing.",
       "sources": [
         "S07"
       ],
@@ -610,42 +232,15 @@
     },
     {
       "id": 15,
-      "category": {
-        "zh": "淡化与亮度",
-        "en": "Fades & light"
-      },
-      "name": {
-        "zh": "亮度溶解",
-        "en": "Luma Fade"
-      },
-      "how": {
-        "zh": "1 叠放A和B。2 用A亮度作遮罩。3 动画化阈值，让明暗区域依次显露B。",
-        "en": "1 Stack A and B. 2 Use A's luminance as a matte. 3 Animate the threshold so B appears through light and dark areas in turn."
-      },
-      "use_when": {
-        "zh": "天空、山脉、高反差轮廓",
-        "en": "Skies, mountains, high-contrast silhouettes"
-      },
-      "effect": {
-        "zh": "按画面结构逐层出现，较普通叠化更有层次。",
-        "en": "Reveals in layers that follow the image structure; richer than a plain dissolve."
-      },
-      "prompt": {
-        "zh": "A按亮部到暗部依次显露B，亮度溶解0.6秒。",
-        "en": "Reveal B through A from highlights to shadows; 0.6 s luma fade."
-      },
-      "ai_path": {
-        "zh": "剪辑AI／代码AI",
-        "en": "Editing AI / Code AI"
-      },
-      "duration": {
-        "zh": "0.4–0.8秒",
-        "en": "0.4–0.8 s"
-      },
-      "pitfalls": {
-        "zh": "低反差素材需调整阈值与边缘柔和度。",
-        "en": "Low-contrast footage needs threshold and edge softness adjusted."
-      },
+      "category": "Fades & light",
+      "name": "Luma Fade",
+      "how": "1 Stack A and B. 2 Use A's luminance as a matte. 3 Animate the threshold so B appears through light and dark areas in turn.",
+      "use_when": "Skies, mountains, high-contrast silhouettes",
+      "effect": "Reveals in layers that follow the image structure; richer than a plain dissolve.",
+      "prompt": "Reveal B through A from highlights to shadows; 0.6 s luma fade.",
+      "ai_path": "Editing AI / Code AI",
+      "duration": "0.4–0.8 s",
+      "pitfalls": "Low-contrast footage needs threshold and edge softness adjusted.",
       "sources": [
         "S06",
         "S05"
@@ -654,42 +249,15 @@
     },
     {
       "id": 16,
-      "category": {
-        "zh": "淡化与亮度",
-        "en": "Fades & light"
-      },
-      "name": {
-        "zh": "漏光",
-        "en": "Light Leak"
-      },
-      "how": {
-        "zh": "1 漏光素材放在两镜头上方。2 用滤色或加亮混合。3 最亮处对齐切点并淡出。",
-        "en": "1 Place light-leak footage above both clips. 2 Use Screen or Add blending. 3 Align the brightest point with the cut, then fade out."
-      },
-      "use_when": {
-        "zh": "婚礼、旅行、复古生活方式",
-        "en": "Weddings, travel, retro lifestyle"
-      },
-      "effect": {
-        "zh": "暖色光晕和胶片质感。",
-        "en": "Warm glow and film texture."
-      },
-      "prompt": {
-        "zh": "在A到B切点叠加一次暖色漏光，峰值遮住切点，0.5秒。",
-        "en": "Overlay one warm light leak at the A-to-B cut, peak covering the cut, 0.5 s."
-      },
-      "ai_path": {
-        "zh": "剪辑AI／代码AI",
-        "en": "Editing AI / Code AI"
-      },
-      "duration": {
-        "zh": "0.3–0.8秒",
-        "en": "0.3–0.8 s"
-      },
-      "pitfalls": {
-        "zh": "漏光应像光线变化，不要盖住重要信息。",
-        "en": "The leak should feel like a change in light and must not cover key information."
-      },
+      "category": "Fades & light",
+      "name": "Light Leak",
+      "how": "1 Place light-leak footage above both clips. 2 Use Screen or Add blending. 3 Align the brightest point with the cut, then fade out.",
+      "use_when": "Weddings, travel, retro lifestyle",
+      "effect": "Warm glow and film texture.",
+      "prompt": "Overlay one warm light leak at the A-to-B cut, peak covering the cut, 0.5 s.",
+      "ai_path": "Editing AI / Code AI",
+      "duration": "0.3–0.8 s",
+      "pitfalls": "The leak should feel like a change in light and must not cover key information.",
       "sources": [
         "S11",
         "S27"
@@ -698,42 +266,15 @@
     },
     {
       "id": 17,
-      "category": {
-        "zh": "淡化与亮度",
-        "en": "Fades & light"
-      },
-      "name": {
-        "zh": "胶片灼烧",
-        "en": "Film Burn"
-      },
-      "how": {
-        "zh": "1 加灼烧纹理或程序效果。2 扩展亮边与不规则遮罩。3 烧穿A后露出B。",
-        "en": "1 Add a burn texture or procedural effect. 2 Expand bright edges and an irregular matte. 3 Burn through A to reveal B."
-      },
-      "use_when": {
-        "zh": "复古MV、回忆、胶片风广告",
-        "en": "Retro music videos, flashbacks, film-look ads"
-      },
-      "effect": {
-        "zh": "有机、粗粝的材质变化。",
-        "en": "Organic, gritty material change."
-      },
-      "prompt": {
-        "zh": "A从边缘被暖色胶片灼烧覆盖，0.5秒后露出B。",
-        "en": "A is overtaken by a warm film burn from the edges, revealing B after 0.5 s."
-      },
-      "ai_path": {
-        "zh": "剪辑AI／代码AI",
-        "en": "Editing AI / Code AI"
-      },
-      "duration": {
-        "zh": "0.4–0.8秒",
-        "en": "0.4–0.8 s"
-      },
-      "pitfalls": {
-        "zh": "区别于均匀闪白，需有不规则纹理。",
-        "en": "Unlike a uniform flash, it needs an irregular texture."
-      },
+      "category": "Fades & light",
+      "name": "Film Burn",
+      "how": "1 Add a burn texture or procedural effect. 2 Expand bright edges and an irregular matte. 3 Burn through A to reveal B.",
+      "use_when": "Retro music videos, flashbacks, film-look ads",
+      "effect": "Organic, gritty material change.",
+      "prompt": "A is overtaken by a warm film burn from the edges, revealing B after 0.5 s.",
+      "ai_path": "Editing AI / Code AI",
+      "duration": "0.4–0.8 s",
+      "pitfalls": "Unlike a uniform flash, it needs an irregular texture.",
       "sources": [
         "S13"
       ],
@@ -741,42 +282,15 @@
     },
     {
       "id": 18,
-      "category": {
-        "zh": "实拍无缝",
-        "en": "In-camera seamless"
-      },
-      "name": {
-        "zh": "甩镜",
-        "en": "Whip Pan"
-      },
-      "how": {
-        "zh": "1 A结尾向右快速甩镜。2 B开头同向甩入。3 在模糊最大处切并配短whoosh。",
-        "en": "1 End A with a fast whip to the right. 2 Start B whipping in from the same direction. 3 Cut at peak blur and add a short whoosh."
-      },
-      "use_when": {
-        "zh": "旅行、运动、快节奏B-roll",
-        "en": "Travel, sport, fast-paced B-roll"
-      },
-      "effect": {
-        "zh": "快速横向动势，隐藏切点。",
-        "en": "Fast lateral momentum that hides the cut."
-      },
-      "prompt": {
-        "zh": "A向右甩镜接B同向甩入，在最大运动模糊处切换。",
-        "en": "A whips right into B whipping in from the same direction; cut at peak motion blur."
-      },
-      "ai_path": {
-        "zh": "剪辑AI／生成式视频AI",
-        "en": "Editing AI / Generative video AI"
-      },
-      "duration": {
-        "zh": "甩动合计0.2–0.5秒",
-        "en": "0.2–0.5 s total whip"
-      },
-      "pitfalls": {
-        "zh": "同方向、近似速度与曝光；实拍优先预先设计。",
-        "en": "Same direction, similar speed and exposure; plan it at the shoot when possible."
-      },
+      "category": "In-camera seamless",
+      "name": "Whip Pan",
+      "how": "1 End A with a fast whip to the right. 2 Start B whipping in from the same direction. 3 Cut at peak blur and add a short whoosh.",
+      "use_when": "Travel, sport, fast-paced B-roll",
+      "effect": "Fast lateral momentum that hides the cut.",
+      "prompt": "A whips right into B whipping in from the same direction; cut at peak motion blur.",
+      "ai_path": "Editing AI / Generative video AI",
+      "duration": "0.2–0.5 s total whip",
+      "pitfalls": "Same direction, similar speed and exposure; plan it at the shoot when possible.",
       "sources": [
         "S12",
         "S04"
@@ -785,42 +299,15 @@
     },
     {
       "id": 19,
-      "category": {
-        "zh": "实拍无缝",
-        "en": "In-camera seamless"
-      },
-      "name": {
-        "zh": "全遮挡隐形切",
-        "en": "Occlusion Cut"
-      },
-      "how": {
-        "zh": "1 A推近手掌或深色物体。2 等画面完全被遮住。3 接B从相同遮挡退出。",
-        "en": "1 Push A into a hand or dark object. 2 Wait until the frame is fully covered. 3 Cut to B emerging from the same occlusion."
-      },
-      "use_when": {
-        "zh": "换装、空间穿越、伪一镜到底",
-        "en": "Outfit changes, space travel, fake one-takes"
-      },
-      "effect": {
-        "zh": "切点隐藏在遮挡内。",
-        "en": "The cut is hidden inside the occlusion."
-      },
-      "prompt": {
-        "zh": "A被黑色衣物完全遮住时切B，B从同一遮挡后连续退出。",
-        "en": "Cut to B when A is fully covered by black clothing; B continues out from behind the same occlusion."
-      },
-      "ai_path": {
-        "zh": "剪辑AI／生成式视频AI",
-        "en": "Editing AI / Generative video AI"
-      },
-      "duration": {
-        "zh": "遮挡约0.1–0.3秒",
-        "en": "About 0.1–0.3 s of occlusion"
-      },
-      "pitfalls": {
-        "zh": "必须真的满屏，运动与遮挡颜色需匹配。",
-        "en": "Must truly fill the frame; match movement and occluder colour."
-      },
+      "category": "In-camera seamless",
+      "name": "Occlusion Cut",
+      "how": "1 Push A into a hand or dark object. 2 Wait until the frame is fully covered. 3 Cut to B emerging from the same occlusion.",
+      "use_when": "Outfit changes, space travel, fake one-takes",
+      "effect": "The cut is hidden inside the occlusion.",
+      "prompt": "Cut to B when A is fully covered by black clothing; B continues out from behind the same occlusion.",
+      "ai_path": "Editing AI / Generative video AI",
+      "duration": "About 0.1–0.3 s of occlusion",
+      "pitfalls": "Must truly fill the frame; match movement and occluder colour.",
       "sources": [
         "S01",
         "S04"
@@ -829,42 +316,15 @@
     },
     {
       "id": 20,
-      "category": {
-        "zh": "蒙版合成",
-        "en": "Masking & compositing"
-      },
-      "name": {
-        "zh": "前景擦除",
-        "en": "Object Wipe"
-      },
-      "how": {
-        "zh": "1 将B放A下方。2 跟踪A前景经过的边缘。3 动画蒙版沿边缘露出B。",
-        "en": "1 Put B below A. 2 Track the edge of a foreground object passing through A. 3 Animate a mask along that edge to reveal B."
-      },
-      "use_when": {
-        "zh": "经过柱子、车辆、行人、门框",
-        "en": "Passing pillars, vehicles, pedestrians, door frames"
-      },
-      "effect": {
-        "zh": "让场景像被前景物体自然擦走。",
-        "en": "The scene looks naturally wiped away by a foreground object."
-      },
-      "prompt": {
-        "zh": "跟踪A中从左向右经过的柱子，用其边缘擦出B。",
-        "en": "Track the pillar moving left to right in A and use its edge to wipe in B."
-      },
-      "ai_path": {
-        "zh": "剪辑AI",
-        "en": "Editing AI"
-      },
-      "duration": {
-        "zh": "0.3–0.8秒",
-        "en": "0.3–0.8 s"
-      },
-      "pitfalls": {
-        "zh": "需逐帧检查蒙版边缘与运动模糊。",
-        "en": "Check mask edges and motion blur frame by frame."
-      },
+      "category": "Masking & compositing",
+      "name": "Object Wipe",
+      "how": "1 Put B below A. 2 Track the edge of a foreground object passing through A. 3 Animate a mask along that edge to reveal B.",
+      "use_when": "Passing pillars, vehicles, pedestrians, door frames",
+      "effect": "The scene looks naturally wiped away by a foreground object.",
+      "prompt": "Track the pillar moving left to right in A and use its edge to wipe in B.",
+      "ai_path": "Editing AI",
+      "duration": "0.3–0.8 s",
+      "pitfalls": "Check mask edges and motion blur frame by frame.",
       "sources": [
         "S10",
         "S22"
@@ -873,42 +333,15 @@
     },
     {
       "id": 21,
-      "category": {
-        "zh": "蒙版合成",
-        "en": "Masking & compositing"
-      },
-      "name": {
-        "zh": "主体保留换背景",
-        "en": "Subject Mask"
-      },
-      "how": {
-        "zh": "1 复制并抠出主体。2 把主体层放最上方。3 背景先转B，主体再衔接。",
-        "en": "1 Duplicate and cut out the subject. 2 Put the subject layer on top. 3 Change the background to B first, then hand over the subject."
-      },
-      "use_when": {
-        "zh": "人物宣传、产品广告、时尚",
-        "en": "Personal promos, product ads, fashion"
-      },
-      "effect": {
-        "zh": "主体连续，背景空间突然改变。",
-        "en": "The subject stays continuous while the space around it changes abruptly."
-      },
-      "prompt": {
-        "zh": "保留A主体在前景，背景擦换为B，再自然接入B主体。",
-        "en": "Keep A's subject in the foreground, wipe the background to B, then hand over naturally to B's subject."
-      },
-      "ai_path": {
-        "zh": "剪辑AI",
-        "en": "Editing AI"
-      },
-      "duration": {
-        "zh": "0.4–0.8秒",
-        "en": "0.4–0.8 s"
-      },
-      "pitfalls": {
-        "zh": "头发、透明物体和遮挡需要修边。",
-        "en": "Hair, transparent objects and overlaps need edge cleanup."
-      },
+      "category": "Masking & compositing",
+      "name": "Subject Mask",
+      "how": "1 Duplicate and cut out the subject. 2 Put the subject layer on top. 3 Change the background to B first, then hand over the subject.",
+      "use_when": "Personal promos, product ads, fashion",
+      "effect": "The subject stays continuous while the space around it changes abruptly.",
+      "prompt": "Keep A's subject in the foreground, wipe the background to B, then hand over naturally to B's subject.",
+      "ai_path": "Editing AI",
+      "duration": "0.4–0.8 s",
+      "pitfalls": "Hair, transparent objects and overlaps need edge cleanup.",
       "sources": [
         "S22"
       ],
@@ -916,42 +349,15 @@
     },
     {
       "id": 22,
-      "category": {
-        "zh": "运镜与变速",
-        "en": "Camera moves & speed"
-      },
-      "name": {
-        "zh": "快速推近",
-        "en": "Zoom In"
-      },
-      "how": {
-        "zh": "1 两镜头锚点对准同一位置。2 A尾快速放大并加径向模糊。3 B从放大状态恢复。",
-        "en": "1 Align both shots' anchor points on the same spot. 2 Rapidly scale up A's tail with radial blur. 3 Bring B back from the zoomed state."
-      },
-      "use_when": {
-        "zh": "商品细节、旅行景点、短视频卡点",
-        "en": "Product details, travel landmarks, beat-synced short videos"
-      },
-      "effect": {
-        "zh": "向前冲入下一画面。",
-        "en": "Pushes forward into the next shot."
-      },
-      "prompt": {
-        "zh": "围绕主体中心快速推近A，模糊峰值切B，0.4秒内稳定。",
-        "en": "Quickly push in on A around the subject's centre, cut to B at peak blur, settle within 0.4 s."
-      },
-      "ai_path": {
-        "zh": "剪辑AI／代码AI",
-        "en": "Editing AI / Code AI"
-      },
-      "duration": {
-        "zh": "0.25–0.5秒",
-        "en": "0.25–0.5 s"
-      },
-      "pitfalls": {
-        "zh": "先对齐视觉中心；避免露出边缘。",
-        "en": "Align the visual centre first; don't reveal frame edges."
-      },
+      "category": "Camera moves & speed",
+      "name": "Zoom In",
+      "how": "1 Align both shots' anchor points on the same spot. 2 Rapidly scale up A's tail with radial blur. 3 Bring B back from the zoomed state.",
+      "use_when": "Product details, travel landmarks, beat-synced short videos",
+      "effect": "Pushes forward into the next shot.",
+      "prompt": "Quickly push in on A around the subject's centre, cut to B at peak blur, settle within 0.4 s.",
+      "ai_path": "Editing AI / Code AI",
+      "duration": "0.25–0.5 s",
+      "pitfalls": "Align the visual centre first; don't reveal frame edges.",
       "sources": [
         "S13"
       ],
@@ -959,42 +365,15 @@
     },
     {
       "id": 23,
-      "category": {
-        "zh": "运镜与变速",
-        "en": "Camera moves & speed"
-      },
-      "name": {
-        "zh": "快速拉远",
-        "en": "Zoom Out"
-      },
-      "how": {
-        "zh": "1 A快速缩小并模糊。2 B从较大比例接入。3 统一拉远方向并回到正常构图。",
-        "en": "1 Rapidly scale down and blur A. 2 Bring B in at a larger scale. 3 Keep the pull-out direction consistent and return to normal framing."
-      },
-      "use_when": {
-        "zh": "细节到全景、空间揭示、品牌片",
-        "en": "Detail to wide, spatial reveals, brand films"
-      },
-      "effect": {
-        "zh": "从局部释放到更大空间。",
-        "en": "Releases from the detail into a larger space."
-      },
-      "prompt": {
-        "zh": "A快速拉远进入B全景，保持中心与拉远方向一致，0.4秒。",
-        "en": "Quickly pull out of A into B's wide shot, keep centre and direction consistent, 0.4 s."
-      },
-      "ai_path": {
-        "zh": "剪辑AI／代码AI",
-        "en": "Editing AI / Code AI"
-      },
-      "duration": {
-        "zh": "0.25–0.5秒",
-        "en": "0.25–0.5 s"
-      },
-      "pitfalls": {
-        "zh": "缩小A时需铺底或镜像扩边。",
-        "en": "When shrinking A, fill the background or mirror-extend the edges."
-      },
+      "category": "Camera moves & speed",
+      "name": "Zoom Out",
+      "how": "1 Rapidly scale down and blur A. 2 Bring B in at a larger scale. 3 Keep the pull-out direction consistent and return to normal framing.",
+      "use_when": "Detail to wide, spatial reveals, brand films",
+      "effect": "Releases from the detail into a larger space.",
+      "prompt": "Quickly pull out of A into B's wide shot, keep centre and direction consistent, 0.4 s.",
+      "ai_path": "Editing AI / Code AI",
+      "duration": "0.25–0.5 s",
+      "pitfalls": "When shrinking A, fill the background or mirror-extend the edges.",
       "sources": [
         "S13"
       ],
@@ -1002,42 +381,15 @@
     },
     {
       "id": 24,
-      "category": {
-        "zh": "运镜与变速",
-        "en": "Camera moves & speed"
-      },
-      "name": {
-        "zh": "旋转",
-        "en": "Spin Transition"
-      },
-      "how": {
-        "zh": "1 A绕中心加速旋转。2 在模糊峰值切B。3 B同向减速落稳。",
-        "en": "1 Accelerate A rotating around its centre. 2 Cut to B at peak blur. 3 Decelerate B in the same direction until it settles."
-      },
-      "use_when": {
-        "zh": "舞蹈、运动、潮流广告",
-        "en": "Dance, sport, trend-driven ads"
-      },
-      "effect": {
-        "zh": "产生旋转动能与节奏冲击。",
-        "en": "Rotational energy and rhythmic impact."
-      },
-      "prompt": {
-        "zh": "A顺时针旋转接B同向减速，加入运动模糊，0.4秒落稳。",
-        "en": "A spins clockwise into B decelerating in the same direction, with motion blur, settling in 0.4 s."
-      },
-      "ai_path": {
-        "zh": "剪辑AI／代码AI",
-        "en": "Editing AI / Code AI"
-      },
-      "duration": {
-        "zh": "0.3–0.6秒",
-        "en": "0.3–0.6 s"
-      },
-      "pitfalls": {
-        "zh": "补足画面边缘，不让主体无意义翻倒。",
-        "en": "Fill the frame edges; don't let the subject flip over for no reason."
-      },
+      "category": "Camera moves & speed",
+      "name": "Spin Transition",
+      "how": "1 Accelerate A rotating around its centre. 2 Cut to B at peak blur. 3 Decelerate B in the same direction until it settles.",
+      "use_when": "Dance, sport, trend-driven ads",
+      "effect": "Rotational energy and rhythmic impact.",
+      "prompt": "A spins clockwise into B decelerating in the same direction, with motion blur, settling in 0.4 s.",
+      "ai_path": "Editing AI / Code AI",
+      "duration": "0.3–0.6 s",
+      "pitfalls": "Fill the frame edges; don't let the subject flip over for no reason.",
       "sources": [
         "S07"
       ],
@@ -1045,42 +397,15 @@
     },
     {
       "id": 25,
-      "category": {
-        "zh": "运镜与变速",
-        "en": "Camera moves & speed"
-      },
-      "name": {
-        "zh": "变速衔接",
-        "en": "Speed Ramp"
-      },
-      "how": {
-        "zh": "1 设时间重映射关键帧。2 A尾加速、B头同速接入。3 B渐慢至正常或慢动作。",
-        "en": "1 Set time-remapping keyframes. 2 Speed up A's tail and bring B in at the same speed. 3 Slow B down to normal or slow motion."
-      },
-      "use_when": {
-        "zh": "运动、商品B-roll、旅行",
-        "en": "Sport, product B-roll, travel"
-      },
-      "effect": {
-        "zh": "突出动作高光并提高节奏。",
-        "en": "Highlights the peak of the action and lifts the pace."
-      },
-      "prompt": {
-        "zh": "A结尾加速，在速度峰值切B，B平滑减速至正常。",
-        "en": "Speed up the end of A, cut to B at peak speed, B smoothly slows to normal."
-      },
-      "ai_path": {
-        "zh": "剪辑AI",
-        "en": "Editing AI"
-      },
-      "duration": {
-        "zh": "变速段0.4–1秒",
-        "en": "0.4–1 s ramp"
-      },
-      "pitfalls": {
-        "zh": "源帧率限制慢放质量；速度曲线不是固定模板。",
-        "en": "Source frame rate limits slow-mo quality; the speed curve is not a fixed template."
-      },
+      "category": "Camera moves & speed",
+      "name": "Speed Ramp",
+      "how": "1 Set time-remapping keyframes. 2 Speed up A's tail and bring B in at the same speed. 3 Slow B down to normal or slow motion.",
+      "use_when": "Sport, product B-roll, travel",
+      "effect": "Highlights the peak of the action and lifts the pace.",
+      "prompt": "Speed up the end of A, cut to B at peak speed, B smoothly slows to normal.",
+      "ai_path": "Editing AI",
+      "duration": "0.4–1 s ramp",
+      "pitfalls": "Source frame rate limits slow-mo quality; the speed curve is not a fixed template.",
       "sources": [
         "S08"
       ],
@@ -1088,42 +413,15 @@
     },
     {
       "id": 26,
-      "category": {
-        "zh": "模糊与变形",
-        "en": "Blur & distortion"
-      },
-      "name": {
-        "zh": "失焦转场",
-        "en": "Defocus"
-      },
-      "how": {
-        "zh": "1 A逐渐失焦。2 选B失焦头部接入。3 B重新合焦；后期可用镜头模糊模拟。",
-        "en": "1 Rack A out of focus. 2 Bring B in on an out-of-focus head. 3 Rack B back into focus; lens blur can simulate it in post."
-      },
-      "use_when": {
-        "zh": "梦境、情绪、产品柔和揭示",
-        "en": "Dreams, emotion, soft product reveals"
-      },
-      "effect": {
-        "zh": "把场景变化藏在视觉模糊中。",
-        "en": "Hides the scene change inside visual blur."
-      },
-      "prompt": {
-        "zh": "A逐渐失焦至全糊后切B，再合焦，合计0.6秒。",
-        "en": "A gradually defocuses to full blur, cut to B, then refocus; 0.6 s total."
-      },
-      "ai_path": {
-        "zh": "剪辑AI／生成式视频AI",
-        "en": "Editing AI / Generative video AI"
-      },
-      "duration": {
-        "zh": "0.4–0.8秒",
-        "en": "0.4–0.8 s"
-      },
-      "pitfalls": {
-        "zh": "匹配两段模糊的色块与亮度。",
-        "en": "Match the colour blocks and brightness of both blurred frames."
-      },
+      "category": "Blur & distortion",
+      "name": "Defocus",
+      "how": "1 Rack A out of focus. 2 Bring B in on an out-of-focus head. 3 Rack B back into focus; lens blur can simulate it in post.",
+      "use_when": "Dreams, emotion, soft product reveals",
+      "effect": "Hides the scene change inside visual blur.",
+      "prompt": "A gradually defocuses to full blur, cut to B, then refocus; 0.6 s total.",
+      "ai_path": "Editing AI / Generative video AI",
+      "duration": "0.4–0.8 s",
+      "pitfalls": "Match the colour blocks and brightness of both blurred frames.",
       "sources": [
         "S01"
       ],
@@ -1131,42 +429,15 @@
     },
     {
       "id": 27,
-      "category": {
-        "zh": "模糊与变形",
-        "en": "Blur & distortion"
-      },
-      "name": {
-        "zh": "方向模糊",
-        "en": "Linear Blur"
-      },
-      "how": {
-        "zh": "1 A、B重叠。2 方向模糊在中点升至峰值。3 叠化到B后消除模糊。",
-        "en": "1 Overlap A and B. 2 Ramp directional blur to a peak at the midpoint. 3 Dissolve to B and clear the blur."
-      },
-      "use_when": {
-        "zh": "科技、运动、平面动效",
-        "en": "Tech, sport, motion graphics"
-      },
-      "effect": {
-        "zh": "产生方向性速度感。",
-        "en": "Directional sense of speed."
-      },
-      "prompt": {
-        "zh": "A到B做0.3秒水平模糊叠化，中点最模糊，两端清晰。",
-        "en": "0.3 s horizontal blur dissolve from A to B, blurriest at the midpoint, sharp at both ends."
-      },
-      "ai_path": {
-        "zh": "剪辑AI／代码AI",
-        "en": "Editing AI / Code AI"
-      },
-      "duration": {
-        "zh": "0.2–0.5秒",
-        "en": "0.2–0.5 s"
-      },
-      "pitfalls": {
-        "zh": "与真实甩镜不同，可用静态镜头实现。",
-        "en": "Unlike a real whip pan, it works with static shots."
-      },
+      "category": "Blur & distortion",
+      "name": "Linear Blur",
+      "how": "1 Overlap A and B. 2 Ramp directional blur to a peak at the midpoint. 3 Dissolve to B and clear the blur.",
+      "use_when": "Tech, sport, motion graphics",
+      "effect": "Directional sense of speed.",
+      "prompt": "0.3 s horizontal blur dissolve from A to B, blurriest at the midpoint, sharp at both ends.",
+      "ai_path": "Editing AI / Code AI",
+      "duration": "0.2–0.5 s",
+      "pitfalls": "Unlike a real whip pan, it works with static shots.",
       "sources": [
         "S13"
       ],
@@ -1174,42 +445,15 @@
     },
     {
       "id": 28,
-      "category": {
-        "zh": "模糊与变形",
-        "en": "Blur & distortion"
-      },
-      "name": {
-        "zh": "水波",
-        "en": "Ripple"
-      },
-      "how": {
-        "zh": "1 动画化波纹位移。2 在波纹峰值混入B。3 减弱波纹使B稳定。",
-        "en": "1 Animate a ripple displacement. 2 Mix in B at the ripple peak. 3 Reduce the ripple until B is stable."
-      },
-      "use_when": {
-        "zh": "梦境、回忆、水主题、复古表达",
-        "en": "Dreams, memories, water themes, retro looks"
-      },
-      "effect": {
-        "zh": "空间像液体般波动。",
-        "en": "Space ripples like liquid."
-      },
-      "prompt": {
-        "zh": "A出现轻微扩散水波并过渡到B，0.6秒恢复稳定。",
-        "en": "A shows a gentle spreading ripple and transitions to B, stabilising within 0.6 s."
-      },
-      "ai_path": {
-        "zh": "剪辑AI／代码AI",
-        "en": "Editing AI / Code AI"
-      },
-      "duration": {
-        "zh": "0.4–0.8秒",
-        "en": "0.4–0.8 s"
-      },
-      "pitfalls": {
-        "zh": "波纹过大易扭曲人脸。",
-        "en": "Large ripples distort faces."
-      },
+      "category": "Blur & distortion",
+      "name": "Ripple",
+      "how": "1 Animate a ripple displacement. 2 Mix in B at the ripple peak. 3 Reduce the ripple until B is stable.",
+      "use_when": "Dreams, memories, water themes, retro looks",
+      "effect": "Space ripples like liquid.",
+      "prompt": "A shows a gentle spreading ripple and transitions to B, stabilising within 0.6 s.",
+      "ai_path": "Editing AI / Code AI",
+      "duration": "0.4–0.8 s",
+      "pitfalls": "Large ripples distort faces.",
       "sources": [
         "S13",
         "S15"
@@ -1218,42 +462,15 @@
     },
     {
       "id": 29,
-      "category": {
-        "zh": "模糊与变形",
-        "en": "Blur & distortion"
-      },
-      "name": {
-        "zh": "口播变形修补",
-        "en": "Morph Cut"
-      },
-      "how": {
-        "zh": "1 删除停顿。2 在近似姿势的两段间加Morph Cut。3 分析后检查嘴部、眼睛和背景。",
-        "en": "1 Remove the pause. 2 Add a Morph Cut between two segments with similar poses. 3 After analysis, check mouth, eyes and background."
-      },
-      "use_when": {
-        "zh": "静态机位采访、单人讲话",
-        "en": "Locked-off interviews, single-speaker talks"
-      },
-      "effect": {
-        "zh": "减轻删句造成的视觉跳动。",
-        "en": "Reduces the visual jump caused by removing lines."
-      },
-      "prompt": {
-        "zh": "为同机位口播跳切添加短Morph Cut，保持嘴型和背景稳定。",
-        "en": "Add a short Morph Cut to the same-angle talking-head jump cut; keep mouth shape and background stable."
-      },
-      "ai_path": {
-        "zh": "剪辑AI",
-        "en": "Editing AI"
-      },
-      "duration": {
-        "zh": "约0.1–0.3秒起试",
-        "en": "Start testing around 0.1–0.3 s"
-      },
-      "pitfalls": {
-        "zh": "不同人物或大幅动作不适合。",
-        "en": "Not suitable for different people or large movements."
-      },
+      "category": "Blur & distortion",
+      "name": "Morph Cut",
+      "how": "1 Remove the pause. 2 Add a Morph Cut between two segments with similar poses. 3 After analysis, check mouth, eyes and background.",
+      "use_when": "Locked-off interviews, single-speaker talks",
+      "effect": "Reduces the visual jump caused by removing lines.",
+      "prompt": "Add a short Morph Cut to the same-angle talking-head jump cut; keep mouth shape and background stable.",
+      "ai_path": "Editing AI",
+      "duration": "Start testing around 0.1–0.3 s",
+      "pitfalls": "Not suitable for different people or large movements.",
       "sources": [
         "S09"
       ],
@@ -1261,42 +478,15 @@
     },
     {
       "id": 30,
-      "category": {
-        "zh": "风格特效",
-        "en": "Stylised effects"
-      },
-      "name": {
-        "zh": "故障",
-        "en": "Glitch"
-      },
-      "how": {
-        "zh": "1 切点附近加短RGB错位与横向位移。2 中间切B。3 快速归零效果。",
-        "en": "1 Add short RGB split and horizontal offset near the cut. 2 Cut to B in the middle. 3 Quickly return the effect to zero."
-      },
-      "use_when": {
-        "zh": "电竞、数码产品、故障情节",
-        "en": "Esports, digital products, malfunction storylines"
-      },
-      "effect": {
-        "zh": "数字干扰和不稳定感。",
-        "en": "Digital interference and instability."
-      },
-      "prompt": {
-        "zh": "A到B加入0.2秒RGB错位与横向故障，随后立即恢复清晰。",
-        "en": "Add a 0.2 s RGB split and horizontal glitch from A to B, then return to clean immediately."
-      },
-      "ai_path": {
-        "zh": "剪辑AI／代码AI",
-        "en": "Editing AI / Code AI"
-      },
-      "duration": {
-        "zh": "0.1–0.3秒",
-        "en": "0.1–0.3 s"
-      },
-      "pitfalls": {
-        "zh": "小字号和品牌标志不要长时间变形。",
-        "en": "Don't distort small text or brand logos for long."
-      },
+      "category": "Stylised effects",
+      "name": "Glitch",
+      "how": "1 Add short RGB split and horizontal offset near the cut. 2 Cut to B in the middle. 3 Quickly return the effect to zero.",
+      "use_when": "Esports, digital products, malfunction storylines",
+      "effect": "Digital interference and instability.",
+      "prompt": "Add a 0.2 s RGB split and horizontal glitch from A to B, then return to clean immediately.",
+      "ai_path": "Editing AI / Code AI",
+      "duration": "0.1–0.3 s",
+      "pitfalls": "Don't distort small text or brand logos for long.",
       "sources": [
         "S15",
         "S07"
@@ -1305,42 +495,15 @@
     },
     {
       "id": 31,
-      "category": {
-        "zh": "风格特效",
-        "en": "Stylised effects"
-      },
-      "name": {
-        "zh": "像素化",
-        "en": "Pixelize"
-      },
-      "how": {
-        "zh": "1 A像素块由细变粗。2 粗块峰值切B。3 B像素块缩小至清晰。",
-        "en": "1 A's pixel blocks grow from fine to coarse. 2 Cut to B at the coarsest point. 3 B's blocks shrink back to sharp."
-      },
-      "use_when": {
-        "zh": "游戏、科技、复古像素风",
-        "en": "Gaming, tech, retro pixel style"
-      },
-      "effect": {
-        "zh": "数字化分解再重组。",
-        "en": "Digital break-down and reassembly."
-      },
-      "prompt": {
-        "zh": "A像素化至大色块后切B，再恢复清晰，总长0.5秒。",
-        "en": "Pixelate A into large blocks, cut to B, then return to sharp; 0.5 s total."
-      },
-      "ai_path": {
-        "zh": "剪辑AI／代码AI",
-        "en": "Editing AI / Code AI"
-      },
-      "duration": {
-        "zh": "0.3–0.6秒",
-        "en": "0.3–0.6 s"
-      },
-      "pitfalls": {
-        "zh": "不适合需要持续读字的画面。",
-        "en": "Not for frames where text must stay readable."
-      },
+      "category": "Stylised effects",
+      "name": "Pixelize",
+      "how": "1 A's pixel blocks grow from fine to coarse. 2 Cut to B at the coarsest point. 3 B's blocks shrink back to sharp.",
+      "use_when": "Gaming, tech, retro pixel style",
+      "effect": "Digital break-down and reassembly.",
+      "prompt": "Pixelate A into large blocks, cut to B, then return to sharp; 0.5 s total.",
+      "ai_path": "Editing AI / Code AI",
+      "duration": "0.3–0.6 s",
+      "pitfalls": "Not for frames where text must stay readable.",
       "sources": [
         "S15"
       ],
@@ -1348,42 +511,15 @@
     },
     {
       "id": 32,
-      "category": {
-        "zh": "图形与空间",
-        "en": "Graphic & spatial"
-      },
-      "name": {
-        "zh": "平移推屏",
-        "en": "Slide / Push"
-      },
-      "how": {
-        "zh": "1 A与B相邻布局。2 两者同速向左移动一屏。3 缓动落稳B。",
-        "en": "1 Lay A and B side by side. 2 Move both left by one screen at the same speed. 3 Ease B into place."
-      },
-      "use_when": {
-        "zh": "教程步骤、产品功能、信息卡片",
-        "en": "Tutorial steps, product features, info cards"
-      },
-      "effect": {
-        "zh": "明确表达顺序与空间关系。",
-        "en": "Clearly expresses sequence and spatial relationship."
-      },
-      "prompt": {
-        "zh": "A向左移出，B从右同步推入，0.4秒缓动落稳。",
-        "en": "A moves out to the left as B pushes in from the right in sync, easing in over 0.4 s."
-      },
-      "ai_path": {
-        "zh": "剪辑AI／代码AI",
-        "en": "Editing AI / Code AI"
-      },
-      "duration": {
-        "zh": "0.3–0.6秒",
-        "en": "0.3–0.6 s"
-      },
-      "pitfalls": {
-        "zh": "与擦除不同，两个画面都在移动。",
-        "en": "Unlike a wipe, both images move."
-      },
+      "category": "Graphic & spatial",
+      "name": "Slide / Push",
+      "how": "1 Lay A and B side by side. 2 Move both left by one screen at the same speed. 3 Ease B into place.",
+      "use_when": "Tutorial steps, product features, info cards",
+      "effect": "Clearly expresses sequence and spatial relationship.",
+      "prompt": "A moves out to the left as B pushes in from the right in sync, easing in over 0.4 s.",
+      "ai_path": "Editing AI / Code AI",
+      "duration": "0.3–0.6 s",
+      "pitfalls": "Unlike a wipe, both images move.",
       "sources": [
         "S13"
       ],
@@ -1391,42 +527,15 @@
     },
     {
       "id": 33,
-      "category": {
-        "zh": "图形与空间",
-        "en": "Graphic & spatial"
-      },
-      "name": {
-        "zh": "线性擦除",
-        "en": "Wipe"
-      },
-      "how": {
-        "zh": "1 B放A下层。2 直线蒙版从左向右扫过。3 A逐渐被B替换。",
-        "en": "1 Put B below A. 2 Sweep a straight-edge mask from left to right. 3 A is progressively replaced by B."
-      },
-      "use_when": {
-        "zh": "章节切换、图表、品牌动画",
-        "en": "Chapter changes, charts, brand animation"
-      },
-      "effect": {
-        "zh": "清楚利落地替换画面。",
-        "en": "Replaces the image cleanly and crisply."
-      },
-      "prompt": {
-        "zh": "用从左向右的直线擦除将A替换成B，0.4秒，边缘清晰。",
-        "en": "Replace A with B using a left-to-right linear wipe, 0.4 s, crisp edge."
-      },
-      "ai_path": {
-        "zh": "剪辑AI／代码AI",
-        "en": "Editing AI / Code AI"
-      },
-      "duration": {
-        "zh": "0.3–0.6秒",
-        "en": "0.3–0.6 s"
-      },
-      "pitfalls": {
-        "zh": "画面主体不需要跟随边界移动。",
-        "en": "The subject doesn't need to follow the wipe edge."
-      },
+      "category": "Graphic & spatial",
+      "name": "Wipe",
+      "how": "1 Put B below A. 2 Sweep a straight-edge mask from left to right. 3 A is progressively replaced by B.",
+      "use_when": "Chapter changes, charts, brand animation",
+      "effect": "Replaces the image cleanly and crisply.",
+      "prompt": "Replace A with B using a left-to-right linear wipe, 0.4 s, crisp edge.",
+      "ai_path": "Editing AI / Code AI",
+      "duration": "0.3–0.6 s",
+      "pitfalls": "The subject doesn't need to follow the wipe edge.",
       "sources": [
         "S10",
         "S13"
@@ -1435,42 +544,15 @@
     },
     {
       "id": 34,
-      "category": {
-        "zh": "图形与空间",
-        "en": "Graphic & spatial"
-      },
-      "name": {
-        "zh": "圆形开合",
-        "en": "Iris"
-      },
-      "how": {
-        "zh": "1 建圆形遮罩。2 圆心放在视觉重点。3 半径从零扩大至全屏。",
-        "en": "1 Create a circular mask. 2 Centre it on the focal point. 3 Grow the radius from zero to full frame."
-      },
-      "use_when": {
-        "zh": "童趣、复古、强调局部、圆形品牌元素",
-        "en": "Playful, retro, spotlighting a detail, circular brand elements"
-      },
-      "effect": {
-        "zh": "聚焦主体后揭开下一场景。",
-        "en": "Focuses on the subject, then reveals the next scene."
-      },
-      "prompt": {
-        "zh": "以B主体为圆心，圆形遮罩从小到大擦出B，0.5秒。",
-        "en": "Centred on B's subject, a circular mask grows from small to large to reveal B, 0.5 s."
-      },
-      "ai_path": {
-        "zh": "剪辑AI／代码AI",
-        "en": "Editing AI / Code AI"
-      },
-      "duration": {
-        "zh": "0.4–0.8秒",
-        "en": "0.4–0.8 s"
-      },
-      "pitfalls": {
-        "zh": "圆心需匹配视觉焦点。",
-        "en": "The centre must match the visual focal point."
-      },
+      "category": "Graphic & spatial",
+      "name": "Iris",
+      "how": "1 Create a circular mask. 2 Centre it on the focal point. 3 Grow the radius from zero to full frame.",
+      "use_when": "Playful, retro, spotlighting a detail, circular brand elements",
+      "effect": "Focuses on the subject, then reveals the next scene.",
+      "prompt": "Centred on B's subject, a circular mask grows from small to large to reveal B, 0.5 s.",
+      "ai_path": "Editing AI / Code AI",
+      "duration": "0.4–0.8 s",
+      "pitfalls": "The centre must match the visual focal point.",
       "sources": [
         "S13"
       ],
@@ -1478,42 +560,15 @@
     },
     {
       "id": 35,
-      "category": {
-        "zh": "图形与空间",
-        "en": "Graphic & spatial"
-      },
-      "name": {
-        "zh": "时钟擦除",
-        "en": "Clock Wipe"
-      },
-      "how": {
-        "zh": "1 建扇形蒙版。2 围绕中心旋转展开。3 满一圈后完全露出B。",
-        "en": "1 Create a sector mask. 2 Rotate it open around the centre. 3 B is fully revealed after one full turn."
-      },
-      "use_when": {
-        "zh": "计时、阶段切换、图形演示",
-        "en": "Timers, stage changes, graphic demos"
-      },
-      "effect": {
-        "zh": "暗示时间推进或步骤完成。",
-        "en": "Implies time passing or a step completed."
-      },
-      "prompt": {
-        "zh": "从12点方向顺时针扇形擦出B，0.6秒完成一圈。",
-        "en": "Clockwise sector wipe from 12 o'clock reveals B, completing one turn in 0.6 s."
-      },
-      "ai_path": {
-        "zh": "剪辑AI／代码AI",
-        "en": "Editing AI / Code AI"
-      },
-      "duration": {
-        "zh": "0.4–0.8秒",
-        "en": "0.4–0.8 s"
-      },
-      "pitfalls": {
-        "zh": "中心位置应固定。",
-        "en": "Keep the centre fixed."
-      },
+      "category": "Graphic & spatial",
+      "name": "Clock Wipe",
+      "how": "1 Create a sector mask. 2 Rotate it open around the centre. 3 B is fully revealed after one full turn.",
+      "use_when": "Timers, stage changes, graphic demos",
+      "effect": "Implies time passing or a step completed.",
+      "prompt": "Clockwise sector wipe from 12 o'clock reveals B, completing one turn in 0.6 s.",
+      "ai_path": "Editing AI / Code AI",
+      "duration": "0.4–0.8 s",
+      "pitfalls": "Keep the centre fixed.",
       "sources": [
         "S13"
       ],
@@ -1521,42 +576,15 @@
     },
     {
       "id": 36,
-      "category": {
-        "zh": "图形与空间",
-        "en": "Graphic & spatial"
-      },
-      "name": {
-        "zh": "立方体旋转",
-        "en": "Cube"
-      },
-      "how": {
-        "zh": "1 将A、B贴到相邻立方体面。2 摄像机保持固定。3 立方体转90度切至B。",
-        "en": "1 Map A and B onto adjacent faces of a cube. 2 Keep the camera fixed. 3 Rotate the cube 90° to reach B."
-      },
-      "use_when": {
-        "zh": "功能模块、演示片、复古数字视觉",
-        "en": "Feature modules, demo videos, retro digital visuals"
-      },
-      "effect": {
-        "zh": "强调页面或空间翻转。",
-        "en": "Emphasises a page or space flipping over."
-      },
-      "prompt": {
-        "zh": "将A与B贴到立方体相邻面，向左旋转90度，0.5秒。",
-        "en": "Map A and B onto adjacent cube faces and rotate 90° to the left, 0.5 s."
-      },
-      "ai_path": {
-        "zh": "代码AI／剪辑AI",
-        "en": "Code AI / Editing AI"
-      },
-      "duration": {
-        "zh": "0.4–0.7秒",
-        "en": "0.4–0.7 s"
-      },
-      "pitfalls": {
-        "zh": "这是平面贴图的3D效果，不是真实镜头穿越。",
-        "en": "This is a 3D effect on flat textures, not a real camera move through space."
-      },
+      "category": "Graphic & spatial",
+      "name": "Cube",
+      "how": "1 Map A and B onto adjacent faces of a cube. 2 Keep the camera fixed. 3 Rotate the cube 90° to reach B.",
+      "use_when": "Feature modules, demo videos, retro digital visuals",
+      "effect": "Emphasises a page or space flipping over.",
+      "prompt": "Map A and B onto adjacent cube faces and rotate 90° to the left, 0.5 s.",
+      "ai_path": "Code AI / Editing AI",
+      "duration": "0.4–0.7 s",
+      "pitfalls": "This is a 3D effect on flat textures, not a real camera move through space.",
       "sources": [
         "S15",
         "S13"
@@ -1565,42 +593,15 @@
     },
     {
       "id": 37,
-      "category": {
-        "zh": "图形与空间",
-        "en": "Graphic & spatial"
-      },
-      "name": {
-        "zh": "翻页",
-        "en": "Page Curl / Book Flip"
-      },
-      "how": {
-        "zh": "1 A作为可弯曲页面。2 动画化页角翻折与阴影。3 展露下方B。",
-        "en": "1 Treat A as a bendable page. 2 Animate the corner curl and shadow. 3 Reveal B underneath."
-      },
-      "use_when": {
-        "zh": "相册、书籍、故事章节、教育",
-        "en": "Photo albums, books, story chapters, education"
-      },
-      "effect": {
-        "zh": "产生翻阅和回顾感。",
-        "en": "A sense of leafing through and looking back."
-      },
-      "prompt": {
-        "zh": "把A像书页一样从右向左翻开，露出B，带柔和阴影，0.7秒。",
-        "en": "Turn A like a book page from right to left to reveal B, with a soft shadow, 0.7 s."
-      },
-      "ai_path": {
-        "zh": "代码AI／剪辑AI",
-        "en": "Code AI / Editing AI"
-      },
-      "duration": {
-        "zh": "0.5–0.9秒",
-        "en": "0.5–0.9 s"
-      },
-      "pitfalls": {
-        "zh": "页面几何和阴影应一致。",
-        "en": "Page geometry and shadows must be consistent."
-      },
+      "category": "Graphic & spatial",
+      "name": "Page Curl / Book Flip",
+      "how": "1 Treat A as a bendable page. 2 Animate the corner curl and shadow. 3 Reveal B underneath.",
+      "use_when": "Photo albums, books, story chapters, education",
+      "effect": "A sense of leafing through and looking back.",
+      "prompt": "Turn A like a book page from right to left to reveal B, with a soft shadow, 0.7 s.",
+      "ai_path": "Code AI / Editing AI",
+      "duration": "0.5–0.9 s",
+      "pitfalls": "Page geometry and shadows must be consistent.",
       "sources": [
         "S15"
       ],
@@ -1608,42 +609,15 @@
     },
     {
       "id": 38,
-      "category": {
-        "zh": "生成式衔接",
-        "en": "Generative bridges"
-      },
-      "name": {
-        "zh": "首尾帧空间穿越",
-        "en": "First–Last-Frame Spatial Bridge"
-      },
-      "how": {
-        "zh": "1 取A末帧、B首帧。2 输入支持首尾帧的模型。3 描述唯一运动路径，生成后修剪接缝。",
-        "en": "1 Take A's last frame and B's first frame. 2 Feed them to a model that supports first/last frames. 3 Describe a single motion path, then trim the seam after generation."
-      },
-      "use_when": {
-        "zh": "门洞穿越、建筑空间、奇幻广告",
-        "en": "Flying through doorways, architectural spaces, fantasy ads"
-      },
-      "effect": {
-        "zh": "生成原素材没有的连续空间运动。",
-        "en": "Generates continuous spatial motion that the original footage doesn't have."
-      },
-      "prompt": {
-        "zh": "从A末帧向前穿过门洞，连续推进至B首帧，镜头平稳。",
-        "en": "From A's last frame, move forward through the doorway, continuously advancing to B's first frame, with a steady camera."
-      },
-      "ai_path": {
-        "zh": "生成式视频AI",
-        "en": "Generative video AI"
-      },
-      "duration": {
-        "zh": "生成2–5秒后选段",
-        "en": "Generate 2–5 s, then pick a section"
-      },
-      "pitfalls": {
-        "zh": "时长按模型支持；检查结构变形和接缝跳动。",
-        "en": "Duration depends on model support; check for structural warping and seam jumps."
-      },
+      "category": "Generative bridges",
+      "name": "First–Last-Frame Spatial Bridge",
+      "how": "1 Take A's last frame and B's first frame. 2 Feed them to a model that supports first/last frames. 3 Describe a single motion path, then trim the seam after generation.",
+      "use_when": "Flying through doorways, architectural spaces, fantasy ads",
+      "effect": "Generates continuous spatial motion that the original footage doesn't have.",
+      "prompt": "From A's last frame, move forward through the doorway, continuously advancing to B's first frame, with a steady camera.",
+      "ai_path": "Generative video AI",
+      "duration": "Generate 2–5 s, then pick a section",
+      "pitfalls": "Duration depends on model support; check for structural warping and seam jumps.",
       "sources": [
         "S25",
         "S24"
@@ -1652,42 +626,15 @@
     },
     {
       "id": 39,
-      "category": {
-        "zh": "生成式衔接",
-        "en": "Generative bridges"
-      },
-      "name": {
-        "zh": "主体形态变换",
-        "en": "Subject Morph"
-      },
-      "how": {
-        "zh": "1 选择轮廓相近的A、B主体。2 提供首尾参考。3 限定背景与镜头，生成形态变化。",
-        "en": "1 Choose A and B subjects with similar silhouettes. 2 Provide first and last reference frames. 3 Lock background and camera, then generate the transformation."
-      },
-      "use_when": {
-        "zh": "创意商品概念、超现实广告、MV",
-        "en": "Creative product concepts, surreal ads, music videos"
-      },
-      "effect": {
-        "zh": "一个主体连续变成另一个。",
-        "en": "One subject continuously turns into another."
-      },
-      "prompt": {
-        "zh": "固定镜头，让A主体平滑变为B主体，保持中心、光线和背景不变。",
-        "en": "Locked camera; A's subject smoothly transforms into B's subject, keeping centre, lighting and background unchanged."
-      },
-      "ai_path": {
-        "zh": "生成式视频AI",
-        "en": "Generative video AI"
-      },
-      "duration": {
-        "zh": "生成2–5秒后选段",
-        "en": "Generate 2–5 s, then pick a section"
-      },
-      "pitfalls": {
-        "zh": "与采访Morph Cut不同；不要假定品牌字样可精确保留。",
-        "en": "Different from an interview Morph Cut; don't assume brand text will be preserved exactly."
-      },
+      "category": "Generative bridges",
+      "name": "Subject Morph",
+      "how": "1 Choose A and B subjects with similar silhouettes. 2 Provide first and last reference frames. 3 Lock background and camera, then generate the transformation.",
+      "use_when": "Creative product concepts, surreal ads, music videos",
+      "effect": "One subject continuously turns into another.",
+      "prompt": "Locked camera; A's subject smoothly transforms into B's subject, keeping centre, lighting and background unchanged.",
+      "ai_path": "Generative video AI",
+      "duration": "Generate 2–5 s, then pick a section",
+      "pitfalls": "Different from an interview Morph Cut; don't assume brand text will be preserved exactly.",
       "sources": [
         "S25",
         "S23"
@@ -1696,42 +643,15 @@
     },
     {
       "id": 40,
-      "category": {
-        "zh": "生成式衔接",
-        "en": "Generative bridges"
-      },
-      "name": {
-        "zh": "同构图环境转换",
-        "en": "Same-Composition Environment Change"
-      },
-      "how": {
-        "zh": "1 锁定主体位置与镜头。2 准备新旧环境参考。3 只描述环境变化，再核对主体一致性。",
-        "en": "1 Lock subject position and camera. 2 Prepare old and new environment references. 3 Describe only the environment change, then check subject consistency."
-      },
-      "use_when": {
-        "zh": "季节更替、日夜变化、同地点时间流逝",
-        "en": "Changing seasons, day to night, time passing in one place"
-      },
-      "effect": {
-        "zh": "保持视觉锚点，同时改变时空。",
-        "en": "Keeps the visual anchor while changing time and place."
-      },
-      "prompt": {
-        "zh": "固定构图和主体，环境从A的白天连续变为B的夜晚，光线平滑变化。",
-        "en": "Fixed composition and subject; the environment changes continuously from A's daytime to B's night, with lighting shifting smoothly."
-      },
-      "ai_path": {
-        "zh": "生成式视频AI",
-        "en": "Generative video AI"
-      },
-      "duration": {
-        "zh": "生成2–5秒后选段",
-        "en": "Generate 2–5 s, then pick a section"
-      },
-      "pitfalls": {
-        "zh": "生成式方案为编辑建议；一致性需筛选结果。",
-        "en": "Generative approaches are editorial suggestions; select results for consistency."
-      },
+      "category": "Generative bridges",
+      "name": "Same-Composition Environment Change",
+      "how": "1 Lock subject position and camera. 2 Prepare old and new environment references. 3 Describe only the environment change, then check subject consistency.",
+      "use_when": "Changing seasons, day to night, time passing in one place",
+      "effect": "Keeps the visual anchor while changing time and place.",
+      "prompt": "Fixed composition and subject; the environment changes continuously from A's daytime to B's night, with lighting shifting smoothly.",
+      "ai_path": "Generative video AI",
+      "duration": "Generate 2–5 s, then pick a section",
+      "pitfalls": "Generative approaches are editorial suggestions; select results for consistency.",
       "sources": [
         "S24",
         "S25",
@@ -1743,591 +663,311 @@
   "sources": [
     {
       "id": "S04",
-      "type": {
-        "zh": "YouTube 原创教程",
-        "en": "YouTube tutorial"
-      },
+      "type": "YouTube tutorial",
       "title": "Peter McKinnon：MAKE YOUR OWN CAMERA TRANSITIONS!!",
-      "learn": {
-        "zh": "实拍镜头转场灵感",
-        "en": "Ideas for in-camera transitions"
-      },
+      "learn": "Ideas for in-camera transitions",
       "url": "https://www.youtube.com/watch?v=_bwfAPXlFu8",
       "likes": 71000,
       "views": 1303826,
       "stars": null,
-      "evidence_zh": "搜索索引快照；约2个月前抓取；非实时值",
-      "notes": {
-        "zh": "高互动学习入口；本次未取得视频逐帧或完整字幕。",
-        "en": "High-engagement entry point; frame-by-frame video or full transcript not obtained."
-      }
+      "notes": "High-engagement entry point; frame-by-frame video or full transcript not obtained."
     },
     {
       "id": "S05",
-      "type": {
-        "zh": "YouTube 原创教程",
-        "en": "YouTube tutorial"
-      },
+      "type": "YouTube tutorial",
       "title": "Peter McKinnon：Fast & Easy LUMA FADE TRANSITION!",
-      "learn": {
-        "zh": "亮度溶解",
-        "en": "Luma fade"
-      },
+      "learn": "Luma fade",
       "url": "https://www.youtube.com/watch?v=1Qm1EGxdZ6E",
       "likes": 36000,
       "views": 783022,
       "stars": null,
-      "evidence_zh": "搜索索引快照；约2个月前抓取；非实时值",
-      "notes": {
-        "zh": "高互动教程；具体技术同时参照 Adobe 官方说明。",
-        "en": "High-engagement tutorial; cross-check technique against Adobe's official docs."
-      }
+      "notes": "High-engagement tutorial; cross-check technique against Adobe's official docs."
     },
     {
       "id": "S28",
-      "type": {
-        "zh": "YouTube 原创教程",
-        "en": "YouTube tutorial"
-      },
+      "type": "YouTube tutorial",
       "title": "Premiere Gal：SEAMLESS TRANSITIONS with Generative Fill",
-      "learn": {
-        "zh": "生成式填充辅助场景衔接",
-        "en": "Generative fill to help bridge scenes"
-      },
+      "learn": "Generative fill to help bridge scenes",
       "url": "https://www.youtube.com/watch?v=fxRbUrYp9Bw",
       "likes": 1200,
       "views": 38218,
       "stars": null,
-      "evidence_zh": "搜索索引快照；约2个月前抓取；非实时值",
-      "notes": {
-        "zh": "用于学习AI补画面思路；本次未获取完整字幕。",
-        "en": "For learning the AI frame-extension idea; full transcript not obtained."
-      }
+      "notes": "For learning the AI frame-extension idea; full transcript not obtained."
     },
     {
       "id": "S01",
-      "type": {
-        "zh": "专业文章",
-        "en": "Professional article"
-      },
+      "type": "Professional article",
       "title": "StudioBinder：Types of Editing Transitions in Film",
-      "learn": {
-        "zh": "基础剪辑、淡化、隐形切、叙事用途",
-        "en": "Basic cuts, fades, invisible cuts, narrative purpose"
-      },
+      "learn": "Basic cuts, fades, invisible cuts, narrative purpose",
       "url": "https://www.studiobinder.com/blog/types-of-editing-transitions-in-film/",
       "likes": null,
       "views": null,
       "stars": null,
-      "evidence_zh": "正文已读取；不提供点赞",
-      "notes": {
-        "zh": "用于理解剪辑语言，避免每个切点都加特效。",
-        "en": "For understanding editing language; avoid adding an effect to every cut."
-      }
+      "notes": "For understanding editing language; avoid adding an effect to every cut."
     },
     {
       "id": "S02",
-      "type": {
-        "zh": "专业文章",
-        "en": "Professional article"
-      },
+      "type": "Professional article",
       "title": "StudioBinder：Match Cuts & Creative Transitions",
-      "learn": {
-        "zh": "形状、色彩、动作、声音匹配",
-        "en": "Shape, colour, action and sound matching"
-      },
+      "learn": "Shape, colour, action and sound matching",
       "url": "https://www.studiobinder.com/blog/match-cuts-creative-transitions-examples/",
       "likes": null,
       "views": null,
       "stars": null,
-      "evidence_zh": "正文已读取；不提供点赞",
-      "notes": {
-        "zh": "先设计两个镜头的共同元素，再做匹配。",
-        "en": "Design the shared element between the two shots first, then match."
-      }
+      "notes": "Design the shared element between the two shots first, then match."
     },
     {
       "id": "S03",
-      "type": {
-        "zh": "官方文档",
-        "en": "Official docs"
-      },
+      "type": "Official docs",
       "title": "Adobe：Create J and L cuts",
-      "learn": {
-        "zh": "声音先入、声音延续",
-        "en": "Audio leading and audio trailing"
-      },
+      "learn": "Audio leading and audio trailing",
       "url": "https://helpx.adobe.com/premiere/desktop/edit-projects/trim-clips/perform-j-cuts-and-l-cuts.html",
       "likes": null,
       "views": null,
       "stars": null,
-      "evidence_zh": "官方页面已读取；不提供点赞",
-      "notes": {
-        "zh": "需要独立调整音频和画面的剪辑点。",
-        "en": "Requires independently adjustable audio and video edit points."
-      }
+      "notes": "Requires independently adjustable audio and video edit points."
     },
     {
       "id": "S06",
-      "type": {
-        "zh": "官方文档",
-        "en": "Official docs"
-      },
+      "type": "Official docs",
       "title": "Adobe：Luma fade transition effect",
-      "learn": {
-        "zh": "按亮度顺序显露下一画面",
-        "en": "Revealing the next shot in luminance order"
-      },
+      "learn": "Revealing the next shot in luminance order",
       "url": "https://www.adobe.com/creativecloud/video/hub/features/why-use-a-luma-fade.html",
       "likes": null,
       "views": null,
       "stars": null,
-      "evidence_zh": "正文已读取；不提供点赞",
-      "notes": {
-        "zh": "高反差素材更易看出亮度分层。",
-        "en": "Brightness layering is easier to see on high-contrast footage."
-      }
+      "notes": "Brightness layering is easier to see on high-contrast footage."
     },
     {
       "id": "S07",
-      "type": {
-        "zh": "官方文档",
-        "en": "Official docs"
-      },
+      "type": "Official docs",
       "title": "Adobe：Modern transitions in Premiere",
-      "learn": {
-        "zh": "叠化、闪白、旋转、故障等效果",
-        "en": "Dissolve, flash, spin, glitch and other effects"
-      },
+      "learn": "Dissolve, flash, spin, glitch and other effects",
       "url": "https://helpx.adobe.com/premiere/desktop/add-video-effects/types-of-effects/transitions.html",
       "likes": null,
       "views": null,
       "stars": null,
-      "evidence_zh": "官方正文；页面更新2026-11-10",
-      "notes": {
-        "zh": "核对所在软件版本是否包含该效果。",
-        "en": "Check whether your software version includes the effect."
-      }
+      "notes": "Check whether your software version includes the effect."
     },
     {
       "id": "S08",
-      "type": {
-        "zh": "官方文档",
-        "en": "Official docs"
-      },
+      "type": "Official docs",
       "title": "Adobe：Create action speed ramps",
-      "learn": {
-        "zh": "时间重映射与变速",
-        "en": "Time remapping and speed changes"
-      },
+      "learn": "Time remapping and speed changes",
       "url": "https://www.adobe.com/creativecloud/video/hub/guides/premiere-pro-speed-ramp.html",
       "likes": null,
       "views": null,
       "stars": null,
-      "evidence_zh": "官方页面已读取；不提供点赞",
-      "notes": {
-        "zh": "慢动作需要足够源帧率；具体速度曲线按素材调整。",
-        "en": "Slow motion needs enough source frame rate; adjust the speed curve to the footage."
-      }
+      "notes": "Slow motion needs enough source frame rate; adjust the speed curve to the footage."
     },
     {
       "id": "S09",
-      "type": {
-        "zh": "官方文档",
-        "en": "Official docs"
-      },
+      "type": "Official docs",
       "title": "Adobe：Morph Cut overview",
-      "learn": {
-        "zh": "采访口播的跳切修补",
-        "en": "Fixing jump cuts in talking-head interviews"
-      },
+      "learn": "Fixing jump cuts in talking-head interviews",
       "url": "https://helpx.adobe.com/uk/premiere/desktop/add-video-effects/apply-video-transitions/morph-cut-overview.html",
       "likes": null,
       "views": null,
       "stars": null,
-      "evidence_zh": "官方搜索摘要；不提供点赞",
-      "notes": {
-        "zh": "最适合静态背景中的单人近似构图。",
-        "en": "Works best for a single person in similar framing against a static background."
-      }
+      "notes": "Works best for a single person in similar framing against a static background."
     },
     {
       "id": "S10",
-      "type": {
-        "zh": "官方教程",
-        "en": "Official tutorial"
-      },
+      "type": "Official tutorial",
       "title": "Adobe：Build custom transitions",
-      "learn": {
-        "zh": "用蒙版和关键帧制作自定义擦除",
-        "en": "Custom wipes with masks and keyframes"
-      },
+      "learn": "Custom wipes with masks and keyframes",
       "url": "https://www.adobe.com/learn/after-effects/web/create-custom-transitions",
       "likes": null,
       "views": null,
       "stars": null,
-      "evidence_zh": "官方搜索摘要；不提供点赞",
-      "notes": {
-        "zh": "适合品牌色块和图形转场。",
-        "en": "Good for brand colour blocks and graphic transitions."
-      }
+      "notes": "Good for brand colour blocks and graphic transitions."
     },
     {
       "id": "S11",
-      "type": {
-        "zh": "原创教程",
-        "en": "Creator tutorial"
-      },
+      "type": "Creator tutorial",
       "title": "tutvid：Create a Light Leak Transition",
-      "learn": {
-        "zh": "漏光素材叠加",
-        "en": "Overlaying light-leak footage"
-      },
+      "learn": "Overlaying light-leak footage",
       "url": "https://tutvid.com/premiere-pro/create-light-leak-transition-premiere-pro/",
       "likes": null,
       "views": null,
       "stars": null,
-      "evidence_zh": "创作者文章搜索摘要；不提供可核实点赞",
-      "notes": {
-        "zh": "素材需覆盖切点，混合方式按素材黑底与亮度调整。",
-        "en": "The footage must cover the cut; adjust blend mode for black background and brightness."
-      }
+      "notes": "The footage must cover the cut; adjust blend mode for black background and brightness."
     },
     {
       "id": "S12",
-      "type": {
-        "zh": "专业文章",
-        "en": "Professional article"
-      },
+      "type": "Professional article",
       "title": "StudioBinder：Swish Pan / Whip Pan",
-      "learn": {
-        "zh": "甩镜的拍摄与用途",
-        "en": "Shooting and using whip pans"
-      },
+      "learn": "Shooting and using whip pans",
       "url": "https://www.studiobinder.com/blog/swish-pan-whip-pan-definition-film/",
       "likes": null,
       "views": null,
       "stars": null,
-      "evidence_zh": "专业文章搜索摘要；不提供点赞",
-      "notes": {
-        "zh": "两端镜头方向与模糊程度应相近。",
-        "en": "Direction and blur amount should be similar on both shots."
-      }
+      "notes": "Direction and blur amount should be similar on both shots."
     },
     {
       "id": "S13",
-      "type": {
-        "zh": "官方文档",
-        "en": "Official docs"
-      },
+      "type": "Official docs",
       "title": "Remotion：@remotion/transitions",
-      "learn": {
-        "zh": "代码实现 fade、wipe、slide、cube 等",
-        "en": "Code implementations of fade, wipe, slide, cube, etc."
-      },
+      "learn": "Code implementations of fade, wipe, slide, cube, etc.",
       "url": "https://www.remotion.dev/docs/transitions/",
       "likes": null,
       "views": null,
       "stars": null,
-      "evidence_zh": "官方页面已读取；不提供点赞",
-      "notes": {
-        "zh": "用 TransitionSeries 管理场景重叠；各包版本保持一致。",
-        "en": "Manage scene overlap with TransitionSeries; keep package versions aligned."
-      }
+      "notes": "Manage scene overlap with TransitionSeries; keep package versions aligned."
     },
     {
       "id": "S14",
-      "type": {
-        "zh": "GitHub AI skills",
-        "en": "GitHub AI skills"
-      },
+      "type": "GitHub AI skills",
       "title": "remotion-dev/skills",
-      "learn": {
-        "zh": "官方视频代码生成与渲染 skills",
-        "en": "Official skills for video code generation and rendering"
-      },
+      "learn": "Official skills for video code generation and rendering",
       "url": "https://github.com/remotion-dev/skills",
       "likes": null,
       "views": null,
       "stars": 7223,
-      "evidence_zh": "GitHub API实读；2026-11-15",
-      "notes": {
-        "zh": "参考安装：npx skills add remotion-dev/skills。提示词：用 Remotion 将 A、B 做0.4秒擦除，输出可编辑代码与预览。",
-        "en": "Install: npx skills add remotion-dev/skills. Prompt: use Remotion to do a 0.4 s wipe from A to B, output editable code and a preview."
-      }
+      "notes": "Install: npx skills add remotion-dev/skills. Prompt: use Remotion to do a 0.4 s wipe from A to B, output editable code and a preview."
     },
     {
       "id": "S15",
-      "type": {
-        "zh": "GitHub 库及 AI skill",
-        "en": "GitHub library & AI skill"
-      },
+      "type": "GitHub library & AI skill",
       "title": "gl-transitions/gl-transitions",
-      "learn": {
-        "zh": "100+ GLSL 转场及 Agent Skill",
-        "en": "100+ GLSL transitions and an Agent Skill"
-      },
+      "learn": "100+ GLSL transitions and an Agent Skill",
       "url": "https://github.com/gl-transitions/gl-transitions",
       "likes": null,
       "views": null,
       "stars": 2252,
-      "evidence_zh": "GitHub API及README实读；2026-11-15",
-      "notes": {
-        "zh": "skill 位于 skills/gl-transitions/SKILL.md。提示词：用 gl-transitions 实现 A→B 的 Cube，0.5秒，检查首中末帧。",
-        "en": "Skill at skills/gl-transitions/SKILL.md. Prompt: use gl-transitions to implement a Cube from A to B, 0.5 s, check first, middle and last frames."
-      }
+      "notes": "Skill at skills/gl-transitions/SKILL.md. Prompt: use gl-transitions to implement a Cube from A to B, 0.5 s, check first, middle and last frames."
     },
     {
       "id": "S16",
-      "type": {
-        "zh": "GitHub 渲染工具",
-        "en": "GitHub render tool"
-      },
+      "type": "GitHub render tool",
       "title": "transitive-bullshit/ffmpeg-gl-transition",
-      "learn": {
-        "zh": "用 FFmpeg 调用 GLSL 转场",
-        "en": "Calling GLSL transitions from FFmpeg"
-      },
+      "learn": "Calling GLSL transitions from FFmpeg",
       "url": "https://github.com/transitive-bullshit/ffmpeg-gl-transition",
       "likes": null,
       "views": null,
       "stars": 722,
-      "evidence_zh": "GitHub API实读；2026-11-15",
-      "notes": {
-        "zh": "不是独立AI skill；通常需要定制FFmpeg构建。提示词：检查滤镜可用性后，为A、B生成0.5秒GLSL转场命令。",
-        "en": "Not a standalone AI skill; usually needs a custom FFmpeg build. Prompt: check filter availability, then generate a 0.5 s GLSL transition command for A and B."
-      }
+      "notes": "Not a standalone AI skill; usually needs a custom FFmpeg build. Prompt: check filter availability, then generate a 0.5 s GLSL transition command for A and B."
     },
     {
       "id": "S17",
-      "type": {
-        "zh": "官方文档",
-        "en": "Official docs"
-      },
+      "type": "Official docs",
       "title": "FFmpeg：xfade",
-      "learn": {
-        "zh": "批量视频转场滤镜",
-        "en": "Batch video transition filter"
-      },
+      "learn": "Batch video transition filter",
       "url": "https://ffmpeg.org/ffmpeg-filters.html#xfade",
       "likes": null,
       "views": null,
       "stars": null,
-      "evidence_zh": "官方页面已读取；不提供点赞",
-      "notes": {
-        "zh": "输入需统一尺寸、帧率、时间基等。提示词：统一A、B参数，使用xfade做0.5秒淡化，另处理音频衔接。",
-        "en": "Inputs need matching size, frame rate, timebase, etc. Prompt: unify A and B parameters, use xfade for a 0.5 s fade, handle the audio join separately."
-      }
+      "notes": "Inputs need matching size, frame rate, timebase, etc. Prompt: unify A and B parameters, use xfade for a 0.5 s fade, handle the audio join separately."
     },
     {
       "id": "S18",
-      "type": {
-        "zh": "YouTube 原创教程",
-        "en": "YouTube tutorial"
-      },
+      "type": "YouTube tutorial",
       "title": "StudioBinder：Ultimate Guide to Scene Transitions",
-      "learn": {
-        "zh": "电影场景转场示例",
-        "en": "Film scene transition examples"
-      },
+      "learn": "Film scene transition examples",
       "url": "https://www.youtube.com/watch?v=TKXBAaQB03U",
       "likes": null,
       "views": null,
       "stars": null,
-      "evidence_zh": "搜索可定位；互动数未核实",
-      "notes": {
-        "zh": "配套S01阅读；不把频道粉丝数当成视频点赞。",
-        "en": "Read alongside S01; don't treat channel subscribers as video likes."
-      }
+      "notes": "Read alongside S01; don't treat channel subscribers as video likes."
     },
     {
       "id": "S19",
-      "type": {
-        "zh": "YouTube 原创教程",
-        "en": "YouTube tutorial"
-      },
+      "type": "YouTube tutorial",
       "title": "Daniel Schiffer：FILMING SMOOTH TRANSITIONS",
-      "learn": {
-        "zh": "商品B-roll实拍衔接",
-        "en": "In-camera transitions for product B-roll"
-      },
+      "learn": "In-camera transitions for product B-roll",
       "url": "https://www.youtube.com/watch?v=1dr_qpnommw",
       "likes": null,
       "views": null,
       "stars": null,
-      "evidence_zh": "标题及原视频链接由B站转载页交叉定位；正文未完整获取",
-      "notes": {
-        "zh": "作为观摩入口，不据此声称已看完教程或确认具体动作。",
-        "en": "For viewing only; we don't claim to have watched the whole tutorial or confirmed specific moves."
-      }
+      "notes": "For viewing only; we don't claim to have watched the whole tutorial or confirmed specific moves."
     },
     {
       "id": "S20",
-      "type": {
-        "zh": "Bilibili 教程",
-        "en": "Bilibili tutorial"
-      },
-      "title": "保姆级无缝转场教学：10分钟教会你3种转场",
-      "learn": {
-        "zh": "中文无缝转场入门",
-        "en": "Intro to seamless transitions (Chinese)"
-      },
+      "type": "Bilibili tutorial",
+      "title": "Seamless transitions step by step: 3 transitions in 10 minutes (Chinese-language video)",
+      "learn": "Intro to seamless transitions (Chinese)",
       "url": "https://www.bilibili.com/video/BV1eK4y1R7tC/",
       "likes": null,
       "views": null,
       "stars": null,
-      "evidence_zh": "搜索摘要可读；原页412限制；点赞未核实",
-      "notes": {
-        "zh": "中文学习入口，不以搜索排序代表专业质量排名。",
-        "en": "Chinese-language entry point; search ranking doesn't represent professional quality."
-      }
+      "notes": "Chinese-language entry point; search ranking doesn't represent professional quality."
     },
     {
       "id": "S21",
-      "type": {
-        "zh": "YouTube 原创教程",
-        "en": "YouTube tutorial"
-      },
+      "type": "YouTube tutorial",
       "title": "Cinecom.net：5 INSANE TRANSITIONS!",
-      "learn": {
-        "zh": "创意转场观摩",
-        "en": "Creative transition showcase"
-      },
+      "learn": "Creative transition showcase",
       "url": "https://www.youtube.com/watch?v=8TCjk94XBCI",
       "likes": null,
       "views": null,
       "stars": null,
-      "evidence_zh": "原页获取失败；第三方热度未作为已核实数值录入",
-      "notes": {
-        "zh": "用于拓展风格；本次未核对完整教学内容。",
-        "en": "For broadening style; full tutorial content not verified."
-      }
+      "notes": "For broadening style; full tutorial content not verified."
     },
     {
       "id": "S22",
-      "type": {
-        "zh": "原创教程",
-        "en": "Creator tutorial"
-      },
+      "type": "Creator tutorial",
       "title": "Kyler Holland：Object Mask Transitions",
-      "learn": {
-        "zh": "跟踪主体蒙版后分层转场",
-        "en": "Layered transitions with a tracked subject mask"
-      },
+      "learn": "Layered transitions with a tracked subject mask",
       "url": "https://www.kylerholland.com/blog/object-mask-transitions-premiere-pro/",
       "likes": null,
       "views": null,
       "stars": null,
-      "evidence_zh": "创作者搜索摘要；无可核实点赞",
-      "notes": {
-        "zh": "需要对象蒙版工具；背景和主体分层，防止效果溢出。",
-        "en": "Needs an object-mask tool; separate background and subject so the effect doesn't spill."
-      }
+      "notes": "Needs an object-mask tool; separate background and subject so the effect doesn't spill."
     },
     {
       "id": "S23",
-      "type": {
-        "zh": "研究论文",
-        "en": "Research paper"
-      },
+      "type": "Research paper",
       "title": "MatchDiffusion：Training-free Generation of Match-cuts",
-      "learn": {
-        "zh": "生成式匹配剪辑研究",
-        "en": "Research on generative match cuts"
-      },
+      "learn": "Research on generative match cuts",
       "url": "https://arxiv.org/abs/2411.18677",
       "likes": null,
       "views": null,
       "stars": null,
-      "evidence_zh": "论文摘要已读取；2024-11-27提交",
-      "notes": {
-        "zh": "是研究方法，不代表任意视频模型仅靠一句提示词就能复现。",
-        "en": "A research method; doesn't mean any video model can reproduce it with one prompt."
-      }
+      "notes": "A research method; doesn't mean any video model can reproduce it with one prompt."
     },
     {
       "id": "S24",
-      "type": {
-        "zh": "官方指南",
-        "en": "Official guide"
-      },
+      "type": "Official guide",
       "title": "Runway：Image to Video Prompting Guide",
-      "learn": {
-        "zh": "描述运动、由上一段末帧继续生成",
-        "en": "Describing motion; continuing generation from the previous clip's last frame"
-      },
+      "learn": "Describing motion; continuing generation from the previous clip's last frame",
       "url": "https://help.runwayml.com/hc/en-us/articles/48324313115155-Image-to-Video-Prompting-Guide",
       "likes": null,
       "views": null,
       "stars": null,
-      "evidence_zh": "官方搜索摘要；无点赞",
-      "notes": {
-        "zh": "本表生成式prompt为改写建议；首尾帧支持取决于具体模型。",
-        "en": "Generative prompts here are adapted suggestions; first/last-frame support depends on the model."
-      }
+      "notes": "Generative prompts here are adapted suggestions; first/last-frame support depends on the model."
     },
     {
       "id": "S25",
-      "type": {
-        "zh": "官方代码",
-        "en": "Official code"
-      },
+      "type": "Official code",
       "title": "Runway SDK：image_to_video",
-      "learn": {
-        "zh": "首帧与可选尾帧输入能力",
-        "en": "First-frame and optional last-frame input"
-      },
+      "learn": "First-frame and optional last-frame input",
       "url": "https://github.com/runwayml/sdk-python/blob/main/src/runwayml/resources/image_to_video.py",
       "likes": null,
       "views": null,
       "stars": null,
-      "evidence_zh": "官方代码搜索摘要；未记录仓库热度",
-      "notes": {
-        "zh": "给模型提供A末帧与B首帧；先确认所选模型与接口参数支持。",
-        "en": "Give the model A's last frame and B's first frame; confirm the model and API support it."
-      }
+      "notes": "Give the model A's last frame and B's first frame; confirm the model and API support it."
     },
     {
       "id": "S26",
-      "type": {
-        "zh": "社交讨论",
-        "en": "Community discussion"
-      },
+      "type": "Community discussion",
       "title": "Reddit：How do I do this dissolving transition",
-      "learn": {
-        "zh": "社区对亮度蒙版的辨认",
-        "en": "Community identification of luma mattes"
-      },
+      "learn": "Community identification of luma mattes",
       "url": "https://www.reddit.com/r/premiere/comments/1hoap6w",
       "likes": null,
       "views": null,
       "stars": null,
-      "evidence_zh": "帖子搜索摘要；投票数未核实",
-      "notes": {
-        "zh": "仅作为术语与需求线索，操作依据使用S06、S10。",
-        "en": "Only a lead on terms and needs; use S06 and S10 for the actual technique."
-      }
+      "notes": "Only a lead on terms and needs; use S06 and S10 for the actual technique."
     },
     {
       "id": "S27",
-      "type": {
-        "zh": "YouTube 官方教程",
-        "en": "YouTube official tutorial"
-      },
+      "type": "YouTube official tutorial",
       "title": "Adobe Live：Light Leak Transitions",
-      "learn": {
-        "zh": "漏光转场示范",
-        "en": "Light-leak transition demo"
-      },
+      "learn": "Light-leak transition demo",
       "url": "https://www.youtube.com/watch?v=vF64-jXd1Ek",
       "likes": null,
       "views": null,
       "stars": null,
-      "evidence_zh": "官方频道搜索摘要；互动数未核实",
-      "notes": {
-        "zh": "与S11结合学习；不把频道粉丝数作为作品热度。",
-        "en": "Learn together with S11; don't treat channel subscribers as content popularity."
-      }
+      "notes": "Learn together with S11; don't treat channel subscribers as content popularity."
     }
   ]
 }

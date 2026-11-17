@@ -1,19 +1,12 @@
-# 🎬 Video Transitions Skill · 专业视频转场 Skill — by Saharan AI
+# 🎬 Video Transitions Skill — by Saharan AI
 
-**An open-source, bilingual (English / 简体中文) Agent Skill that teaches Claude Code, Codex and other AI agents 40 professional video transitions, with step-by-step recipes, durations, pitfalls and ready-to-use AI prompts.**
-
-**开源的中英双语 Agent Skill，让 Claude Code、Codex 等 AI agent 掌握 40 种专业视频转场：每种都有具体做法、建议时长、易错点和可直接使用的 AI prompt。**
+**An open-source Agent Skill that teaches Claude Code, Codex and other AI agents 40 professional video transitions, with step-by-step recipes, durations, pitfalls and ready-to-use AI prompts.**
 
 Built and maintained by **[Saharan AI](https://www.saharan.ai)**, the agentic creative canvas where one full-stack AI agent runs your whole creative workflow, from brief to finished image and video.
-由 **[Saharan AI](https://www.saharan.ai)** 开发维护：Agentic 创意画布：一个全栈 AI agent 帮你跑完从需求到成品图片、视频的整个创意流程。
-
-[English](#english) · [简体中文](#简体中文)
 
 ---
 
-## English
-
-### What it does
+## What it does
 
 Ask your agent things like:
 
@@ -22,9 +15,9 @@ Ask your agent things like:
 - "Implement a 0.4 s luma fade between these two clips in Remotion."
 - "Give me an FFmpeg xfade command for a dip to black between A and B."
 
-The agent picks suitable techniques, fills in the prompt for your shots and tools, and warns you about the pitfalls. It answers in your language and can give prompts in English or Chinese.
+The agent picks suitable techniques, fills in the prompt for your shots and tools, and warns you about the pitfalls.
 
-### What's inside
+## What's inside
 
 | Category | Techniques |
 |---|---|
@@ -40,9 +33,11 @@ The agent picks suitable techniques, fills in the prompt for your shots and tool
 | Graphic & spatial | Slide/Push, Wipe, Iris, Clock Wipe, Cube, Page Curl |
 | Generative AI | First–last-frame bridge, Subject Morph, Same-composition environment change |
 
-Each technique includes **how to do it · when to use it · the effect · an AI prompt · AI path (editing / code / generative) · suggested duration · pitfalls · sources**, in both English and Chinese. 28 sources are cited, including Adobe docs, StudioBinder, Remotion, FFmpeg, gl-transitions, Runway and creator tutorials.
+Each technique includes: **how to do it · when to use it · the effect · an AI prompt · AI path (editing / code / generative) · suggested duration · pitfalls · sources.**
 
-### Install
+28 sources are cited, including Adobe docs, StudioBinder, Remotion, FFmpeg, gl-transitions, Runway and creator tutorials.
+
+## Install
 
 **Any agent (skills CLI)**
 
@@ -66,7 +61,18 @@ cp -r saharan-video-transitions/skills/video-transitions ~/.codex/skills/
 
 **Claude.ai**: zip the `skills/video-transitions` folder and upload it under Settings → Capabilities → Skills.
 
-### FAQ
+## Structure
+
+```
+skills/video-transitions/
+├── SKILL.md                    # instructions & decision guide
+└── references/
+    ├── transitions.md          # 40 techniques, full detail
+    ├── transitions.json        # machine-readable
+    └── sources.md              # 28 sources + method notes
+```
+
+## FAQ
 
 **What is the best AI prompt for a video transition?**
 It depends on the cut. Describe A and B concretely, name one motion path, and fix the duration. This skill holds a prompt for each of 40 transitions; for a whip pan: *"A whips right into B whipping in from the same direction; cut at peak motion blur."*
@@ -77,105 +83,19 @@ Yes, with first–last-frame or reference-image input (techniques 38–40). Fram
 **How do I code a transition?**
 Use Remotion's `@remotion/transitions`, FFmpeg `xfade`, or gl-transitions. Techniques tagged *Code AI* include prompts for these.
 
-### About Saharan AI
+**Does it work in other languages?**
+Yes. The agent replies in your language and can translate the prompt for the tool or model you use.
+
+## About Saharan AI
 
 [Saharan AI](https://www.saharan.ai) is an agentic creative canvas, like an agentic Canva. One full-stack AI agent runs the whole creative workflow end to end, from brief to design, image and video, with project memory, and can bring in other experts' authorized agents mid-workflow. We open-source parts of the creative know-how behind it, like this skill.
 
-### License
+→ **[www.saharan.ai](https://www.saharan.ai)**
 
-[CC BY 4.0](LICENSE). Free to use, adapt and redistribute, including commercially, **with credit**:
+## License & attribution
 
-> Video Transitions skill by Saharan AI (https://www.saharan.ai), CC BY 4.0
-
----
-
-## 简体中文
-
-### 能做什么
-
-可以这样问 agent：
-
-- "商品特写接城市全景，用什么转场？"
-- "帮我写一段 Seedance 首尾帧 prompt，从 A 的末帧穿过门洞接到 B。"
-- "用 Remotion 给这两段做 0.4 秒亮度溶解。"
-- "给我一条 FFmpeg xfade 命令，A 淡黑再接 B。"
-
-agent 会挑选合适的转场，把 prompt 填成你的镜头和工具，并提醒易错点。它会用你的语言回复，prompt 可以给中文或英文版。
-
-### 包含内容
-
-| 类别 | 转场 |
-|---|---|
-| 基础叙事 | 硬切、动作接切、跳切、反差切、插入镜头桥接 |
-| 匹配剪辑 | 形状匹配、色彩匹配、运动匹配 |
-| 声音衔接 | 声音先入 J-cut、声音延续 L-cut、声音桥 |
-| 淡化与亮度 | 交叉叠化、淡黑再入、闪白、亮度溶解、漏光、胶片灼烧 |
-| 实拍无缝 | 甩镜、全遮挡隐形切 |
-| 蒙版合成 | 前景擦除、主体保留换背景 |
-| 运镜与变速 | 快速推近、快速拉远、旋转、变速衔接 |
-| 模糊与变形 | 失焦转场、方向模糊、水波、口播变形修补 |
-| 风格特效 | 故障、像素化 |
-| 图形与空间 | 平移推屏、线性擦除、圆形开合、时钟擦除、立方体旋转、翻页 |
-| 生成式衔接 | 首尾帧空间穿越、主体形态变换、同构图环境转换 |
-
-每种转场都有中英双语的**具体做法、适用情况、达成效果、AI Prompt、适用 AI 路径（剪辑 / 代码 / 生成式视频）、建议时长、易错点和来源**。共引用 28 个来源，包括 Adobe 官方文档、StudioBinder、Remotion、FFmpeg、gl-transitions、Runway 及创作者教程。
-
-### 安装
-
-**通用（skills CLI）**
-
-```bash
-npx skills add <your-github>/saharan-video-transitions
-```
-
-**Claude Code**
-
-```bash
-git clone https://github.com/<your-github>/saharan-video-transitions
-cp -r saharan-video-transitions/skills/video-transitions ~/.claude/skills/
-```
-
-**OpenAI Codex**
-
-```bash
-git clone https://github.com/<your-github>/saharan-video-transitions
-cp -r saharan-video-transitions/skills/video-transitions ~/.codex/skills/
-```
-
-**Claude.ai**：把 `skills/video-transitions` 文件夹压缩成 zip，在 Settings → Capabilities → Skills 上传。
-
-### 常见问题
-
-**视频转场最好用的 AI prompt 是什么？**
-取决于切点。具体描述 A 和 B，只写一条运动路径，并定好时长。本 skill 为 40 种转场各准备了一条 prompt，例如甩镜：*"A向右甩镜接B同向甩入，在最大运动模糊处切换。"*
-
-**Seedance、可灵、Veo、Runway 等 AI 视频模型能做转场吗？**
-可以，需要用首尾帧或参考图输入（第 38–40 种）。精确卡帧、logo 和字幕仍建议在剪辑软件或代码中完成。
-
-**怎么用代码做转场？**
-使用 Remotion 的 `@remotion/transitions`、FFmpeg `xfade` 或 gl-transitions。标注"代码AI"的转场都附有对应 prompt。
-
-### 关于 Saharan AI
-
-[Saharan AI](https://www.saharan.ai) 是一个 Agentic 创意画布，可以理解为"会自己干活的 Canva"。一个全栈 AI agent 从需求、设计到图片和视频，端到端跑完整个创意流程，带有项目记忆，还能在流程中调用其他专家授权的 agent。我们会陆续开源背后的创意经验，这个 skill 就是其中之一。
-
-### 授权
-
-[CC BY 4.0](LICENSE)。可自由使用、改编和转载（包括商用），**但须署名**：
+Content is licensed under [CC BY 4.0](LICENSE). You may use, adapt and redistribute it, including commercially, **as long as you credit**:
 
 > Video Transitions skill by Saharan AI (https://www.saharan.ai), CC BY 4.0
 
----
-
-## Structure · 目录结构
-
-```
-skills/video-transitions/
-├── SKILL.md                 # instructions & decision guide · 指令与选择指南
-└── references/
-    ├── transitions.md       # 40 techniques, bilingual · 40 种转场中英对照
-    ├── transitions.json     # machine-readable · 机器可读
-    └── sources.md           # 28 sources + method notes · 来源与使用说明
-```
-
-Third-party sources remain the property of their owners and are linked, not reproduced. · 第三方来源版权归原作者所有，本仓库仅提供链接。
+Third-party sources remain the property of their owners and are linked, not reproduced.
