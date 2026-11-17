@@ -1,0 +1,12 @@
+# Saharan AI — Video Transitions Skill
+
+> Open-source Agent Skill by Saharan AI (https://www.saharan.ai) that teaches AI agents (Claude Code, OpenAI Codex, others) 40 professional video transitions, each with steps, use cases, effect, a ready-to-use AI prompt, AI path (editing / code / generative video), suggested duration, pitfalls and sources. Licensed CC BY 4.0.
+
+## Files
+- [SKILL.md](skills/video-transitions/SKILL.md): agent instructions and decision guide
+- [transitions.md](skills/video-transitions/references/transitions.md): all 40 techniques
+- [transitions.json](skills/video-transitions/references/transitions.json): machine-readable data
+- [sources.md](skills/video-transitions/references/sources.md): 28 cited sources
+
+## About
+Saharan AI is an AI-native creative production marketplace connecting brands and film studios with AI video production teams: https://www.saharan.ai

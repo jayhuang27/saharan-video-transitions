@@ -1,0 +1,1000 @@
+{
+  "publisher": "Saharan AI",
+  "homepage": "https://www.saharan.ai",
+  "license": "CC-BY-4.0",
+  "retrieved": "2026-11-15",
+  "transitions": [
+    {
+      "id": 1,
+      "category": "基础叙事",
+      "name": "硬切 Hard Cut",
+      "how": "1 选A结束与B开始动作点。2 删除缝隙直接拼接。3 检查视线、动作与声音。",
+      "use_when": "对白、纪录片、信息密集内容",
+      "effect": "干净直接，保持叙事节奏。",
+      "prompt": "A结束后直接硬切B，保持动作连续，不加过渡。",
+      "ai_path": "剪辑AI",
+      "duration": "瞬时",
+      "pitfalls": "先保证镜头逻辑成立。",
+      "sources": [
+        "S01"
+      ],
+      "main_source": "https://www.studiobinder.com/blog/types-of-editing-transitions-in-film/"
+    },
+    {
+      "id": 2,
+      "category": "基础叙事",
+      "name": "动作接切 Cut on Action",
+      "how": "1 找动作进行中的切点。2 B从同一动作后续接入。3 逐帧修剪重复或缺失动作。",
+      "use_when": "开门、转身、拿取、运动",
+      "effect": "用动作引导注意，让切点不显眼。",
+      "prompt": "在A抬手中途切B的后续动作，匹配方向和速度。",
+      "ai_path": "剪辑AI",
+      "duration": "瞬时",
+      "pitfalls": "动作阶段和轴线需一致。",
+      "sources": [
+        "S02"
+      ],
+      "main_source": "https://www.studiobinder.com/blog/match-cuts-creative-transitions-examples/"
+    },
+    {
+      "id": 3,
+      "category": "匹配剪辑",
+      "name": "形状匹配 Graphic Match",
+      "how": "1 选相似轮廓。2 调位置、比例、旋转以对齐。3 在构图最相近处切换。",
+      "use_when": "品牌标志、圆形物件、跨时代叙事",
+      "effect": "建立视觉联系或比喻。",
+      "prompt": "将A的圆形主体对齐B的圆形主体，匹配大小后硬切。",
+      "ai_path": "剪辑AI",
+      "duration": "瞬时",
+      "pitfalls": "保持主体落点一致，避免额外变形。",
+      "sources": [
+        "S02"
+      ],
+      "main_source": "https://www.studiobinder.com/blog/match-cuts-creative-transitions-examples/"
+    },
+    {
+      "id": 4,
+      "category": "匹配剪辑",
+      "name": "色彩匹配 Color Match",
+      "how": "1 找主色相似镜头。2 校正色温、亮度。3 在相同色块占据视野时切B。",
+      "use_when": "时尚、美食、旅行、品牌色",
+      "effect": "跨场景仍保持色彩连续。",
+      "prompt": "在A与B主色一致时硬切，统一亮度与色温。",
+      "ai_path": "剪辑AI",
+      "duration": "瞬时",
+      "pitfalls": "颜色匹配不等于两个镜头套同一LUT。",
+      "sources": [
+        "S02"
+      ],
+      "main_source": "https://www.studiobinder.com/blog/match-cuts-creative-transitions-examples/"
+    },
+    {
+      "id": 5,
+      "category": "匹配剪辑",
+      "name": "运动匹配 Motion Match",
+      "how": "1 找同方向运动。2 校准速度与主体位置。3 在运动相位相近处切换。",
+      "use_when": "抛接、旋转商品、运动集锦",
+      "effect": "把不同场景接成同一股动势。",
+      "prompt": "A向右运动接B向右运动，匹配速度和主体位置后切换。",
+      "ai_path": "剪辑AI",
+      "duration": "瞬时",
+      "pitfalls": "可跨场景；不同于同一动作的连续接切。",
+      "sources": [
+        "S02"
+      ],
+      "main_source": "https://www.studiobinder.com/blog/match-cuts-creative-transitions-examples/"
+    },
+    {
+      "id": 6,
+      "category": "基础叙事",
+      "name": "跳切 Jump Cut",
+      "how": "1 固定同机位素材。2 删停顿或中间时间。3 保留有意的姿态跳变。",
+      "use_when": "口播、教程、时间压缩",
+      "effect": "提速并强调时间跳跃。",
+      "prompt": "删除A中的停顿，保留同机位跳切，语句衔接自然。",
+      "ai_path": "剪辑AI",
+      "duration": "瞬时",
+      "pitfalls": "需接受明显跳变，避免剪断词尾。",
+      "sources": [
+        "S01"
+      ],
+      "main_source": "https://www.studiobinder.com/blog/types-of-editing-transitions-in-film/"
+    },
+    {
+      "id": 7,
+      "category": "基础叙事",
+      "name": "反差切 Smash / Contrast Cut",
+      "how": "1 选情绪或声音反差大的两段。2 卡反应点硬切。3 同步切换或突停声音。",
+      "use_when": "喜剧反转、梦醒、强烈情绪变化",
+      "effect": "制造惊讶、反讽或冲击。",
+      "prompt": "从A的喧闹瞬间硬切B的安静，声音同步骤停。",
+      "ai_path": "剪辑AI",
+      "duration": "瞬时",
+      "pitfalls": "叙事应支持反差，不只为炫技。",
+      "sources": [
+        "S01"
+      ],
+      "main_source": "https://www.studiobinder.com/blog/types-of-editing-transitions-in-film/"
+    },
+    {
+      "id": 8,
+      "category": "基础叙事",
+      "name": "插入镜头桥接 Cutaway",
+      "how": "1 在A删改处插相关细节。2 原对白连续播放。3 接回主镜头或进入B。",
+      "use_when": "采访删句、教学、纪录片",
+      "effect": "遮住画面跳切并补充信息。",
+      "prompt": "在A的删句处插入相关细节B，保持对白连续。",
+      "ai_path": "剪辑AI",
+      "duration": "插镜约1–3秒",
+      "pitfalls": "这是镜头组织技巧，不是软件特效。",
+      "sources": [
+        "S01"
+      ],
+      "main_source": "https://www.studiobinder.com/blog/types-of-editing-transitions-in-film/"
+    },
+    {
+      "id": 9,
+      "category": "声音衔接",
+      "name": "声音先入 J-cut",
+      "how": "1 分开音画剪辑点。2 B声音先于B画面进入。3 平衡交接处音量。",
+      "use_when": "采访、进入新地点、悬念预告",
+      "effect": "先用声音引导观众期待。",
+      "prompt": "B的声音提前0.5秒进入，再从A切到B画面。",
+      "ai_path": "剪辑AI",
+      "duration": "声音提前0.3–1秒",
+      "pitfalls": "需提供可独立编辑的B音轨。",
+      "sources": [
+        "S03"
+      ],
+      "main_source": "https://helpx.adobe.com/premiere/desktop/edit-projects/trim-clips/perform-j-cuts-and-l-cuts.html"
+    },
+    {
+      "id": 10,
+      "category": "声音衔接",
+      "name": "声音延续 L-cut",
+      "how": "1 先将画面切B。2 A对白或环境声继续。3 在自然句尾淡出A音轨。",
+      "use_when": "访谈反应镜头、旁白配B-roll",
+      "effect": "保留情绪和语义连续。",
+      "prompt": "先切到B画面，A的对白继续至句尾后淡出。",
+      "ai_path": "剪辑AI",
+      "duration": "声音延续0.5–2秒",
+      "pitfalls": "避免与B对白互相遮盖。",
+      "sources": [
+        "S03"
+      ],
+      "main_source": "https://helpx.adobe.com/premiere/desktop/edit-projects/trim-clips/perform-j-cuts-and-l-cuts.html"
+    },
+    {
+      "id": 11,
+      "category": "声音衔接",
+      "name": "声音桥 Sound Bridge",
+      "how": "1 选可跨场景延续的声音。2 把声音铺过画面切点。3 混入B环境声。",
+      "use_when": "跨地域蒙太奇、回忆、主题关联",
+      "effect": "听觉上连结两个空间。",
+      "prompt": "用同一段雨声贯穿A到B，在B中逐渐混入新环境声。",
+      "ai_path": "剪辑AI",
+      "duration": "跨切点约0.5–2秒",
+      "pitfalls": "与J/L cut有关，但不要求使用对白。",
+      "sources": [
+        "S02"
+      ],
+      "main_source": "https://www.studiobinder.com/blog/match-cuts-creative-transitions-examples/"
+    },
+    {
+      "id": 12,
+      "category": "淡化与亮度",
+      "name": "交叉叠化 Cross Dissolve",
+      "how": "1 保留两段额外素材。2 重叠A尾B头。3 A透明度降、B升并检查重影。",
+      "use_when": "时间流逝、回忆、舒缓风景",
+      "effect": "柔和过渡，暗示时间关系。",
+      "prompt": "A与B做0.6秒交叉叠化，曝光平稳。",
+      "ai_path": "剪辑AI／代码AI",
+      "duration": "0.4–1秒",
+      "pitfalls": "两张人脸叠在一起可能产生杂乱重影。",
+      "sources": [
+        "S07",
+        "S17"
+      ],
+      "main_source": "https://helpx.adobe.com/premiere/desktop/add-video-effects/types-of-effects/transitions.html"
+    },
+    {
+      "id": 13,
+      "category": "淡化与亮度",
+      "name": "淡黑再入 Dip to Black",
+      "how": "1 A渐暗至黑。2 可短暂停黑。3 B从黑恢复正常曝光。",
+      "use_when": "章节结束、时间跨度大、段落分隔",
+      "effect": "产生停顿与明确段落感。",
+      "prompt": "A用0.3秒淡至黑，再用0.3秒淡入B。",
+      "ai_path": "剪辑AI／代码AI",
+      "duration": "0.6–1.2秒",
+      "pitfalls": "频繁淡黑容易被误读为结束。",
+      "sources": [
+        "S07"
+      ],
+      "main_source": "https://helpx.adobe.com/premiere/desktop/add-video-effects/types-of-effects/transitions.html"
+    },
+    {
+      "id": 14,
+      "category": "淡化与亮度",
+      "name": "闪白 Flash / Dip to White",
+      "how": "1 提亮A尾。2 在白峰值切B。3 B迅速恢复曝光。",
+      "use_when": "闪光灯、回忆触发、音乐卡点",
+      "effect": "瞬间冲击，遮盖场景变化。",
+      "prompt": "A闪白后切B，0.2秒内恢复正常曝光，只闪一次。",
+      "ai_path": "剪辑AI／代码AI",
+      "duration": "0.15–0.3秒",
+      "pitfalls": "大面积连续闪烁应避免。",
+      "sources": [
+        "S07"
+      ],
+      "main_source": "https://helpx.adobe.com/premiere/desktop/add-video-effects/types-of-effects/transitions.html"
+    },
+    {
+      "id": 15,
+      "category": "淡化与亮度",
+      "name": "亮度溶解 Luma Fade",
+      "how": "1 叠放A和B。2 用A亮度作遮罩。3 动画化阈值，让明暗区域依次显露B。",
+      "use_when": "天空、山脉、高反差轮廓",
+      "effect": "按画面结构逐层出现，较普通叠化更有层次。",
+      "prompt": "A按亮部到暗部依次显露B，亮度溶解0.6秒。",
+      "ai_path": "剪辑AI／代码AI",
+      "duration": "0.4–0.8秒",
+      "pitfalls": "低反差素材需调整阈值与边缘柔和度。",
+      "sources": [
+        "S06",
+        "S05"
+      ],
+      "main_source": "https://www.adobe.com/creativecloud/video/hub/features/why-use-a-luma-fade.html"
+    },
+    {
+      "id": 16,
+      "category": "淡化与亮度",
+      "name": "漏光 Light Leak",
+      "how": "1 漏光素材放在两镜头上方。2 用滤色或加亮混合。3 最亮处对齐切点并淡出。",
+      "use_when": "婚礼、旅行、复古生活方式",
+      "effect": "暖色光晕和胶片质感。",
+      "prompt": "在A到B切点叠加一次暖色漏光，峰值遮住切点，0.5秒。",
+      "ai_path": "剪辑AI／代码AI",
+      "duration": "0.3–0.8秒",
+      "pitfalls": "漏光应像光线变化，不要盖住重要信息。",
+      "sources": [
+        "S11",
+        "S27"
+      ],
+      "main_source": "https://tutvid.com/premiere-pro/create-light-leak-transition-premiere-pro/"
+    },
+    {
+      "id": 17,
+      "category": "淡化与亮度",
+      "name": "胶片灼烧 Film Burn",
+      "how": "1 加灼烧纹理或程序效果。2 扩展亮边与不规则遮罩。3 烧穿A后露出B。",
+      "use_when": "复古MV、回忆、胶片风广告",
+      "effect": "有机、粗粝的材质变化。",
+      "prompt": "A从边缘被暖色胶片灼烧覆盖，0.5秒后露出B。",
+      "ai_path": "剪辑AI／代码AI",
+      "duration": "0.4–0.8秒",
+      "pitfalls": "区别于均匀闪白，需有不规则纹理。",
+      "sources": [
+        "S13"
+      ],
+      "main_source": "https://www.remotion.dev/docs/transitions/"
+    },
+    {
+      "id": 18,
+      "category": "实拍无缝",
+      "name": "甩镜 Whip Pan",
+      "how": "1 A结尾向右快速甩镜。2 B开头同向甩入。3 在模糊最大处切并配短whoosh。",
+      "use_when": "旅行、运动、快节奏B-roll",
+      "effect": "快速横向动势，隐藏切点。",
+      "prompt": "A向右甩镜接B同向甩入，在最大运动模糊处切换。",
+      "ai_path": "剪辑AI／生成式视频AI",
+      "duration": "甩动合计0.2–0.5秒",
+      "pitfalls": "同方向、近似速度与曝光；实拍优先预先设计。",
+      "sources": [
+        "S12",
+        "S04"
+      ],
+      "main_source": "https://www.studiobinder.com/blog/swish-pan-whip-pan-definition-film/"
+    },
+    {
+      "id": 19,
+      "category": "实拍无缝",
+      "name": "全遮挡隐形切 Occlusion Cut",
+      "how": "1 A推近手掌或深色物体。2 等画面完全被遮住。3 接B从相同遮挡退出。",
+      "use_when": "换装、空间穿越、伪一镜到底",
+      "effect": "切点隐藏在遮挡内。",
+      "prompt": "A被黑色衣物完全遮住时切B，B从同一遮挡后连续退出。",
+      "ai_path": "剪辑AI／生成式视频AI",
+      "duration": "遮挡约0.1–0.3秒",
+      "pitfalls": "必须真的满屏，运动与遮挡颜色需匹配。",
+      "sources": [
+        "S01",
+        "S04"
+      ],
+      "main_source": "https://www.studiobinder.com/blog/types-of-editing-transitions-in-film/"
+    },
+    {
+      "id": 20,
+      "category": "蒙版合成",
+      "name": "前景擦除 Object Wipe",
+      "how": "1 将B放A下方。2 跟踪A前景经过的边缘。3 动画蒙版沿边缘露出B。",
+      "use_when": "经过柱子、车辆、行人、门框",
+      "effect": "让场景像被前景物体自然擦走。",
+      "prompt": "跟踪A中从左向右经过的柱子，用其边缘擦出B。",
+      "ai_path": "剪辑AI",
+      "duration": "0.3–0.8秒",
+      "pitfalls": "需逐帧检查蒙版边缘与运动模糊。",
+      "sources": [
+        "S10",
+        "S22"
+      ],
+      "main_source": "https://www.adobe.com/learn/after-effects/web/create-custom-transitions"
+    },
+    {
+      "id": 21,
+      "category": "蒙版合成",
+      "name": "主体保留换背景 Subject Mask",
+      "how": "1 复制并抠出主体。2 把主体层放最上方。3 背景先转B，主体再衔接。",
+      "use_when": "人物宣传、产品广告、时尚",
+      "effect": "主体连续，背景空间突然改变。",
+      "prompt": "保留A主体在前景，背景擦换为B，再自然接入B主体。",
+      "ai_path": "剪辑AI",
+      "duration": "0.4–0.8秒",
+      "pitfalls": "头发、透明物体和遮挡需要修边。",
+      "sources": [
+        "S22"
+      ],
+      "main_source": "https://www.kylerholland.com/blog/object-mask-transitions-premiere-pro/"
+    },
+    {
+      "id": 22,
+      "category": "运镜与变速",
+      "name": "快速推近 Zoom In",
+      "how": "1 两镜头锚点对准同一位置。2 A尾快速放大并加径向模糊。3 B从放大状态恢复。",
+      "use_when": "商品细节、旅行景点、短视频卡点",
+      "effect": "向前冲入下一画面。",
+      "prompt": "围绕主体中心快速推近A，模糊峰值切B，0.4秒内稳定。",
+      "ai_path": "剪辑AI／代码AI",
+      "duration": "0.25–0.5秒",
+      "pitfalls": "先对齐视觉中心；避免露出边缘。",
+      "sources": [
+        "S13"
+      ],
+      "main_source": "https://www.remotion.dev/docs/transitions/"
+    },
+    {
+      "id": 23,
+      "category": "运镜与变速",
+      "name": "快速拉远 Zoom Out",
+      "how": "1 A快速缩小并模糊。2 B从较大比例接入。3 统一拉远方向并回到正常构图。",
+      "use_when": "细节到全景、空间揭示、品牌片",
+      "effect": "从局部释放到更大空间。",
+      "prompt": "A快速拉远进入B全景，保持中心与拉远方向一致，0.4秒。",
+      "ai_path": "剪辑AI／代码AI",
+      "duration": "0.25–0.5秒",
+      "pitfalls": "缩小A时需铺底或镜像扩边。",
+      "sources": [
+        "S13"
+      ],
+      "main_source": "https://www.remotion.dev/docs/transitions/"
+    },
+    {
+      "id": 24,
+      "category": "运镜与变速",
+      "name": "旋转 Spin Transition",
+      "how": "1 A绕中心加速旋转。2 在模糊峰值切B。3 B同向减速落稳。",
+      "use_when": "舞蹈、运动、潮流广告",
+      "effect": "产生旋转动能与节奏冲击。",
+      "prompt": "A顺时针旋转接B同向减速，加入运动模糊，0.4秒落稳。",
+      "ai_path": "剪辑AI／代码AI",
+      "duration": "0.3–0.6秒",
+      "pitfalls": "补足画面边缘，不让主体无意义翻倒。",
+      "sources": [
+        "S07"
+      ],
+      "main_source": "https://helpx.adobe.com/premiere/desktop/add-video-effects/types-of-effects/transitions.html"
+    },
+    {
+      "id": 25,
+      "category": "运镜与变速",
+      "name": "变速衔接 Speed Ramp",
+      "how": "1 设时间重映射关键帧。2 A尾加速、B头同速接入。3 B渐慢至正常或慢动作。",
+      "use_when": "运动、商品B-roll、旅行",
+      "effect": "突出动作高光并提高节奏。",
+      "prompt": "A结尾加速，在速度峰值切B，B平滑减速至正常。",
+      "ai_path": "剪辑AI",
+      "duration": "变速段0.4–1秒",
+      "pitfalls": "源帧率限制慢放质量；速度曲线不是固定模板。",
+      "sources": [
+        "S08"
+      ],
+      "main_source": "https://www.adobe.com/creativecloud/video/hub/guides/premiere-pro-speed-ramp.html"
+    },
+    {
+      "id": 26,
+      "category": "模糊与变形",
+      "name": "失焦转场 Defocus",
+      "how": "1 A逐渐失焦。2 选B失焦头部接入。3 B重新合焦；后期可用镜头模糊模拟。",
+      "use_when": "梦境、情绪、产品柔和揭示",
+      "effect": "把场景变化藏在视觉模糊中。",
+      "prompt": "A逐渐失焦至全糊后切B，再合焦，合计0.6秒。",
+      "ai_path": "剪辑AI／生成式视频AI",
+      "duration": "0.4–0.8秒",
+      "pitfalls": "匹配两段模糊的色块与亮度。",
+      "sources": [
+        "S01"
+      ],
+      "main_source": "https://www.studiobinder.com/blog/types-of-editing-transitions-in-film/"
+    },
+    {
+      "id": 27,
+      "category": "模糊与变形",
+      "name": "方向模糊 Linear Blur",
+      "how": "1 A、B重叠。2 方向模糊在中点升至峰值。3 叠化到B后消除模糊。",
+      "use_when": "科技、运动、平面动效",
+      "effect": "产生方向性速度感。",
+      "prompt": "A到B做0.3秒水平模糊叠化，中点最模糊，两端清晰。",
+      "ai_path": "剪辑AI／代码AI",
+      "duration": "0.2–0.5秒",
+      "pitfalls": "与真实甩镜不同，可用静态镜头实现。",
+      "sources": [
+        "S13"
+      ],
+      "main_source": "https://www.remotion.dev/docs/transitions/"
+    },
+    {
+      "id": 28,
+      "category": "模糊与变形",
+      "name": "水波 Ripple",
+      "how": "1 动画化波纹位移。2 在波纹峰值混入B。3 减弱波纹使B稳定。",
+      "use_when": "梦境、回忆、水主题、复古表达",
+      "effect": "空间像液体般波动。",
+      "prompt": "A出现轻微扩散水波并过渡到B，0.6秒恢复稳定。",
+      "ai_path": "剪辑AI／代码AI",
+      "duration": "0.4–0.8秒",
+      "pitfalls": "波纹过大易扭曲人脸。",
+      "sources": [
+        "S13",
+        "S15"
+      ],
+      "main_source": "https://www.remotion.dev/docs/transitions/"
+    },
+    {
+      "id": 29,
+      "category": "模糊与变形",
+      "name": "口播变形修补 Morph Cut",
+      "how": "1 删除停顿。2 在近似姿势的两段间加Morph Cut。3 分析后检查嘴部、眼睛和背景。",
+      "use_when": "静态机位采访、单人讲话",
+      "effect": "减轻删句造成的视觉跳动。",
+      "prompt": "为同机位口播跳切添加短Morph Cut，保持嘴型和背景稳定。",
+      "ai_path": "剪辑AI",
+      "duration": "约0.1–0.3秒起试",
+      "pitfalls": "不同人物或大幅动作不适合。",
+      "sources": [
+        "S09"
+      ],
+      "main_source": "https://helpx.adobe.com/uk/premiere/desktop/add-video-effects/apply-video-transitions/morph-cut-overview.html"
+    },
+    {
+      "id": 30,
+      "category": "风格特效",
+      "name": "故障 Glitch",
+      "how": "1 切点附近加短RGB错位与横向位移。2 中间切B。3 快速归零效果。",
+      "use_when": "电竞、数码产品、故障情节",
+      "effect": "数字干扰和不稳定感。",
+      "prompt": "A到B加入0.2秒RGB错位与横向故障，随后立即恢复清晰。",
+      "ai_path": "剪辑AI／代码AI",
+      "duration": "0.1–0.3秒",
+      "pitfalls": "小字号和品牌标志不要长时间变形。",
+      "sources": [
+        "S15",
+        "S07"
+      ],
+      "main_source": "https://github.com/gl-transitions/gl-transitions"
+    },
+    {
+      "id": 31,
+      "category": "风格特效",
+      "name": "像素化 Pixelize",
+      "how": "1 A像素块由细变粗。2 粗块峰值切B。3 B像素块缩小至清晰。",
+      "use_when": "游戏、科技、复古像素风",
+      "effect": "数字化分解再重组。",
+      "prompt": "A像素化至大色块后切B，再恢复清晰，总长0.5秒。",
+      "ai_path": "剪辑AI／代码AI",
+      "duration": "0.3–0.6秒",
+      "pitfalls": "不适合需要持续读字的画面。",
+      "sources": [
+        "S15"
+      ],
+      "main_source": "https://github.com/gl-transitions/gl-transitions"
+    },
+    {
+      "id": 32,
+      "category": "图形与空间",
+      "name": "平移推屏 Slide / Push",
+      "how": "1 A与B相邻布局。2 两者同速向左移动一屏。3 缓动落稳B。",
+      "use_when": "教程步骤、产品功能、信息卡片",
+      "effect": "明确表达顺序与空间关系。",
+      "prompt": "A向左移出，B从右同步推入，0.4秒缓动落稳。",
+      "ai_path": "剪辑AI／代码AI",
+      "duration": "0.3–0.6秒",
+      "pitfalls": "与擦除不同，两个画面都在移动。",
+      "sources": [
+        "S13"
+      ],
+      "main_source": "https://www.remotion.dev/docs/transitions/"
+    },
+    {
+      "id": 33,
+      "category": "图形与空间",
+      "name": "线性擦除 Wipe",
+      "how": "1 B放A下层。2 直线蒙版从左向右扫过。3 A逐渐被B替换。",
+      "use_when": "章节切换、图表、品牌动画",
+      "effect": "清楚利落地替换画面。",
+      "prompt": "用从左向右的直线擦除将A替换成B，0.4秒，边缘清晰。",
+      "ai_path": "剪辑AI／代码AI",
+      "duration": "0.3–0.6秒",
+      "pitfalls": "画面主体不需要跟随边界移动。",
+      "sources": [
+        "S10",
+        "S13"
+      ],
+      "main_source": "https://www.adobe.com/learn/after-effects/web/create-custom-transitions"
+    },
+    {
+      "id": 34,
+      "category": "图形与空间",
+      "name": "圆形开合 Iris",
+      "how": "1 建圆形遮罩。2 圆心放在视觉重点。3 半径从零扩大至全屏。",
+      "use_when": "童趣、复古、强调局部、圆形品牌元素",
+      "effect": "聚焦主体后揭开下一场景。",
+      "prompt": "以B主体为圆心，圆形遮罩从小到大擦出B，0.5秒。",
+      "ai_path": "剪辑AI／代码AI",
+      "duration": "0.4–0.8秒",
+      "pitfalls": "圆心需匹配视觉焦点。",
+      "sources": [
+        "S13"
+      ],
+      "main_source": "https://www.remotion.dev/docs/transitions/"
+    },
+    {
+      "id": 35,
+      "category": "图形与空间",
+      "name": "时钟擦除 Clock Wipe",
+      "how": "1 建扇形蒙版。2 围绕中心旋转展开。3 满一圈后完全露出B。",
+      "use_when": "计时、阶段切换、图形演示",
+      "effect": "暗示时间推进或步骤完成。",
+      "prompt": "从12点方向顺时针扇形擦出B，0.6秒完成一圈。",
+      "ai_path": "剪辑AI／代码AI",
+      "duration": "0.4–0.8秒",
+      "pitfalls": "中心位置应固定。",
+      "sources": [
+        "S13"
+      ],
+      "main_source": "https://www.remotion.dev/docs/transitions/"
+    },
+    {
+      "id": 36,
+      "category": "图形与空间",
+      "name": "立方体旋转 Cube",
+      "how": "1 将A、B贴到相邻立方体面。2 摄像机保持固定。3 立方体转90度切至B。",
+      "use_when": "功能模块、演示片、复古数字视觉",
+      "effect": "强调页面或空间翻转。",
+      "prompt": "将A与B贴到立方体相邻面，向左旋转90度，0.5秒。",
+      "ai_path": "代码AI／剪辑AI",
+      "duration": "0.4–0.7秒",
+      "pitfalls": "这是平面贴图的3D效果，不是真实镜头穿越。",
+      "sources": [
+        "S15",
+        "S13"
+      ],
+      "main_source": "https://github.com/gl-transitions/gl-transitions"
+    },
+    {
+      "id": 37,
+      "category": "图形与空间",
+      "name": "翻页 Page Curl / Book Flip",
+      "how": "1 A作为可弯曲页面。2 动画化页角翻折与阴影。3 展露下方B。",
+      "use_when": "相册、书籍、故事章节、教育",
+      "effect": "产生翻阅和回顾感。",
+      "prompt": "把A像书页一样从右向左翻开，露出B，带柔和阴影，0.7秒。",
+      "ai_path": "代码AI／剪辑AI",
+      "duration": "0.5–0.9秒",
+      "pitfalls": "页面几何和阴影应一致。",
+      "sources": [
+        "S15"
+      ],
+      "main_source": "https://github.com/gl-transitions/gl-transitions"
+    },
+    {
+      "id": 38,
+      "category": "生成式衔接",
+      "name": "首尾帧空间穿越",
+      "how": "1 取A末帧、B首帧。2 输入支持首尾帧的模型。3 描述唯一运动路径，生成后修剪接缝。",
+      "use_when": "门洞穿越、建筑空间、奇幻广告",
+      "effect": "生成原素材没有的连续空间运动。",
+      "prompt": "从A末帧向前穿过门洞，连续推进至B首帧，镜头平稳。",
+      "ai_path": "生成式视频AI",
+      "duration": "生成2–5秒后选段",
+      "pitfalls": "时长按模型支持；检查结构变形和接缝跳动。",
+      "sources": [
+        "S25",
+        "S24"
+      ],
+      "main_source": "https://github.com/runwayml/sdk-python/blob/main/src/runwayml/resources/image_to_video.py"
+    },
+    {
+      "id": 39,
+      "category": "生成式衔接",
+      "name": "主体形态变换 Morph",
+      "how": "1 选择轮廓相近的A、B主体。2 提供首尾参考。3 限定背景与镜头，生成形态变化。",
+      "use_when": "创意商品概念、超现实广告、MV",
+      "effect": "一个主体连续变成另一个。",
+      "prompt": "固定镜头，让A主体平滑变为B主体，保持中心、光线和背景不变。",
+      "ai_path": "生成式视频AI",
+      "duration": "生成2–5秒后选段",
+      "pitfalls": "与采访Morph Cut不同；不要假定品牌字样可精确保留。",
+      "sources": [
+        "S25",
+        "S23"
+      ],
+      "main_source": "https://github.com/runwayml/sdk-python/blob/main/src/runwayml/resources/image_to_video.py"
+    },
+    {
+      "id": 40,
+      "category": "生成式衔接",
+      "name": "同构图环境转换",
+      "how": "1 锁定主体位置与镜头。2 准备新旧环境参考。3 只描述环境变化，再核对主体一致性。",
+      "use_when": "季节更替、日夜变化、同地点时间流逝",
+      "effect": "保持视觉锚点，同时改变时空。",
+      "prompt": "固定构图和主体，环境从A的白天连续变为B的夜晚，光线平滑变化。",
+      "ai_path": "生成式视频AI",
+      "duration": "生成2–5秒后选段",
+      "pitfalls": "生成式方案为编辑建议；一致性需筛选结果。",
+      "sources": [
+        "S24",
+        "S25",
+        "S23"
+      ],
+      "main_source": "https://help.runwayml.com/hc/en-us/articles/48324313115155-Image-to-Video-Prompting-Guide"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S04",
+      "type": "YouTube 原创教程",
+      "title": "Peter McKinnon：MAKE YOUR OWN CAMERA TRANSITIONS!!",
+      "learn": "实拍镜头转场灵感",
+      "url": "https://www.youtube.com/watch?v=_bwfAPXlFu8",
+      "likes": 71000,
+      "views": 1303826,
+      "stars": null,
+      "evidence": "搜索索引快照；约2个月前抓取；非实时值",
+      "notes": "高互动学习入口；本次未取得视频逐帧或完整字幕。"
+    },
+    {
+      "id": "S05",
+      "type": "YouTube 原创教程",
+      "title": "Peter McKinnon：Fast & Easy LUMA FADE TRANSITION!",
+      "learn": "亮度溶解",
+      "url": "https://www.youtube.com/watch?v=1Qm1EGxdZ6E",
+      "likes": 36000,
+      "views": 783022,
+      "stars": null,
+      "evidence": "搜索索引快照；约2个月前抓取；非实时值",
+      "notes": "高互动教程；具体技术同时参照 Adobe 官方说明。"
+    },
+    {
+      "id": "S28",
+      "type": "YouTube 原创教程",
+      "title": "Premiere Gal：SEAMLESS TRANSITIONS with Generative Fill",
+      "learn": "生成式填充辅助场景衔接",
+      "url": "https://www.youtube.com/watch?v=fxRbUrYp9Bw",
+      "likes": 1200,
+      "views": 38218,
+      "stars": null,
+      "evidence": "搜索索引快照；约2个月前抓取；非实时值",
+      "notes": "用于学习AI补画面思路；本次未获取完整字幕。"
+    },
+    {
+      "id": "S01",
+      "type": "专业文章",
+      "title": "StudioBinder：Types of Editing Transitions in Film",
+      "learn": "基础剪辑、淡化、隐形切、叙事用途",
+      "url": "https://www.studiobinder.com/blog/types-of-editing-transitions-in-film/",
+      "likes": null,
+      "views": null,
+      "stars": null,
+      "evidence": "正文已读取；不提供点赞",
+      "notes": "用于理解剪辑语言，避免每个切点都加特效。"
+    },
+    {
+      "id": "S02",
+      "type": "专业文章",
+      "title": "StudioBinder：Match Cuts & Creative Transitions",
+      "learn": "形状、色彩、动作、声音匹配",
+      "url": "https://www.studiobinder.com/blog/match-cuts-creative-transitions-examples/",
+      "likes": null,
+      "views": null,
+      "stars": null,
+      "evidence": "正文已读取；不提供点赞",
+      "notes": "先设计两个镜头的共同元素，再做匹配。"
+    },
+    {
+      "id": "S03",
+      "type": "官方文档",
+      "title": "Adobe：Create J and L cuts",
+      "learn": "声音先入、声音延续",
+      "url": "https://helpx.adobe.com/premiere/desktop/edit-projects/trim-clips/perform-j-cuts-and-l-cuts.html",
+      "likes": null,
+      "views": null,
+      "stars": null,
+      "evidence": "官方页面已读取；不提供点赞",
+      "notes": "需要独立调整音频和画面的剪辑点。"
+    },
+    {
+      "id": "S06",
+      "type": "官方文档",
+      "title": "Adobe：Luma fade transition effect",
+      "learn": "按亮度顺序显露下一画面",
+      "url": "https://www.adobe.com/creativecloud/video/hub/features/why-use-a-luma-fade.html",
+      "likes": null,
+      "views": null,
+      "stars": null,
+      "evidence": "正文已读取；不提供点赞",
+      "notes": "高反差素材更易看出亮度分层。"
+    },
+    {
+      "id": "S07",
+      "type": "官方文档",
+      "title": "Adobe：Modern transitions in Premiere",
+      "learn": "叠化、闪白、旋转、故障等效果",
+      "url": "https://helpx.adobe.com/premiere/desktop/add-video-effects/types-of-effects/transitions.html",
+      "likes": null,
+      "views": null,
+      "stars": null,
+      "evidence": "官方正文；页面更新2026-11-10",
+      "notes": "核对所在软件版本是否包含该效果。"
+    },
+    {
+      "id": "S08",
+      "type": "官方文档",
+      "title": "Adobe：Create action speed ramps",
+      "learn": "时间重映射与变速",
+      "url": "https://www.adobe.com/creativecloud/video/hub/guides/premiere-pro-speed-ramp.html",
+      "likes": null,
+      "views": null,
+      "stars": null,
+      "evidence": "官方页面已读取；不提供点赞",
+      "notes": "慢动作需要足够源帧率；具体速度曲线按素材调整。"
+    },
+    {
+      "id": "S09",
+      "type": "官方文档",
+      "title": "Adobe：Morph Cut overview",
+      "learn": "采访口播的跳切修补",
+      "url": "https://helpx.adobe.com/uk/premiere/desktop/add-video-effects/apply-video-transitions/morph-cut-overview.html",
+      "likes": null,
+      "views": null,
+      "stars": null,
+      "evidence": "官方搜索摘要；不提供点赞",
+      "notes": "最适合静态背景中的单人近似构图。"
+    },
+    {
+      "id": "S10",
+      "type": "官方教程",
+      "title": "Adobe：Build custom transitions",
+      "learn": "用蒙版和关键帧制作自定义擦除",
+      "url": "https://www.adobe.com/learn/after-effects/web/create-custom-transitions",
+      "likes": null,
+      "views": null,
+      "stars": null,
+      "evidence": "官方搜索摘要；不提供点赞",
+      "notes": "适合品牌色块和图形转场。"
+    },
+    {
+      "id": "S11",
+      "type": "原创教程",
+      "title": "tutvid：Create a Light Leak Transition",
+      "learn": "漏光素材叠加",
+      "url": "https://tutvid.com/premiere-pro/create-light-leak-transition-premiere-pro/",
+      "likes": null,
+      "views": null,
+      "stars": null,
+      "evidence": "创作者文章搜索摘要；不提供可核实点赞",
+      "notes": "素材需覆盖切点，混合方式按素材黑底与亮度调整。"
+    },
+    {
+      "id": "S12",
+      "type": "专业文章",
+      "title": "StudioBinder：Swish Pan / Whip Pan",
+      "learn": "甩镜的拍摄与用途",
+      "url": "https://www.studiobinder.com/blog/swish-pan-whip-pan-definition-film/",
+      "likes": null,
+      "views": null,
+      "stars": null,
+      "evidence": "专业文章搜索摘要；不提供点赞",
+      "notes": "两端镜头方向与模糊程度应相近。"
+    },
+    {
+      "id": "S13",
+      "type": "官方文档",
+      "title": "Remotion：@remotion/transitions",
+      "learn": "代码实现 fade、wipe、slide、cube 等",
+      "url": "https://www.remotion.dev/docs/transitions/",
+      "likes": null,
+      "views": null,
+      "stars": null,
+      "evidence": "官方页面已读取；不提供点赞",
+      "notes": "用 TransitionSeries 管理场景重叠；各包版本保持一致。"
+    },
+    {
+      "id": "S14",
+      "type": "GitHub AI skills",
+      "title": "remotion-dev/skills",
+      "learn": "官方视频代码生成与渲染 skills",
+      "url": "https://github.com/remotion-dev/skills",
+      "likes": null,
+      "views": null,
+      "stars": 7223,
+      "evidence": "GitHub API实读；2026-11-15",
+      "notes": "参考安装：npx skills add remotion-dev/skills。提示词：用 Remotion 将 A、B 做0.4秒擦除，输出可编辑代码与预览。"
+    },
+    {
+      "id": "S15",
+      "type": "GitHub 库及 AI skill",
+      "title": "gl-transitions/gl-transitions",
+      "learn": "100+ GLSL 转场及 Agent Skill",
+      "url": "https://github.com/gl-transitions/gl-transitions",
+      "likes": null,
+      "views": null,
+      "stars": 2252,
+      "evidence": "GitHub API及README实读；2026-11-15",
+      "notes": "skill 位于 skills/gl-transitions/SKILL.md。提示词：用 gl-transitions 实现 A→B 的 Cube，0.5秒，检查首中末帧。"
+    },
+    {
+      "id": "S16",
+      "type": "GitHub 渲染工具",
+      "title": "transitive-bullshit/ffmpeg-gl-transition",
+      "learn": "用 FFmpeg 调用 GLSL 转场",
+      "url": "https://github.com/transitive-bullshit/ffmpeg-gl-transition",
+      "likes": null,
+      "views": null,
+      "stars": 722,
+      "evidence": "GitHub API实读；2026-11-15",
+      "notes": "不是独立AI skill；通常需要定制FFmpeg构建。提示词：检查滤镜可用性后，为A、B生成0.5秒GLSL转场命令。"
+    },
+    {
+      "id": "S17",
+      "type": "官方文档",
+      "title": "FFmpeg：xfade",
+      "learn": "批量视频转场滤镜",
+      "url": "https://ffmpeg.org/ffmpeg-filters.html#xfade",
+      "likes": null,
+      "views": null,
+      "stars": null,
+      "evidence": "官方页面已读取；不提供点赞",
+      "notes": "输入需统一尺寸、帧率、时间基等。提示词：统一A、B参数，使用xfade做0.5秒淡化，另处理音频衔接。"
+    },
+    {
+      "id": "S18",
+      "type": "YouTube 原创教程",
+      "title": "StudioBinder：Ultimate Guide to Scene Transitions",
+      "learn": "电影场景转场示例",
+      "url": "https://www.youtube.com/watch?v=TKXBAaQB03U",
+      "likes": null,
+      "views": null,
+      "stars": null,
+      "evidence": "搜索可定位；互动数未核实",
+      "notes": "配套S01阅读；不把频道粉丝数当成视频点赞。"
+    },
+    {
+      "id": "S19",
+      "type": "YouTube 原创教程",
+      "title": "Daniel Schiffer：FILMING SMOOTH TRANSITIONS",
+      "learn": "商品B-roll实拍衔接",
+      "url": "https://www.youtube.com/watch?v=1dr_qpnommw",
+      "likes": null,
+      "views": null,
+      "stars": null,
+      "evidence": "标题及原视频链接由B站转载页交叉定位；正文未完整获取",
+      "notes": "作为观摩入口，不据此声称已看完教程或确认具体动作。"
+    },
+    {
+      "id": "S20",
+      "type": "Bilibili 教程",
+      "title": "保姆级无缝转场教学：10分钟教会你3种转场",
+      "learn": "中文无缝转场入门",
+      "url": "https://www.bilibili.com/video/BV1eK4y1R7tC/",
+      "likes": null,
+      "views": null,
+      "stars": null,
+      "evidence": "搜索摘要可读；原页412限制；点赞未核实",
+      "notes": "中文学习入口，不以搜索排序代表专业质量排名。"
+    },
+    {
+      "id": "S21",
+      "type": "YouTube 原创教程",
+      "title": "Cinecom.net：5 INSANE TRANSITIONS!",
+      "learn": "创意转场观摩",
+      "url": "https://www.youtube.com/watch?v=8TCjk94XBCI",
+      "likes": null,
+      "views": null,
+      "stars": null,
+      "evidence": "原页获取失败；第三方热度未作为已核实数值录入",
+      "notes": "用于拓展风格；本次未核对完整教学内容。"
+    },
+    {
+      "id": "S22",
+      "type": "原创教程",
+      "title": "Kyler Holland：Object Mask Transitions",
+      "learn": "跟踪主体蒙版后分层转场",
+      "url": "https://www.kylerholland.com/blog/object-mask-transitions-premiere-pro/",
+      "likes": null,
+      "views": null,
+      "stars": null,
+      "evidence": "创作者搜索摘要；无可核实点赞",
+      "notes": "需要对象蒙版工具；背景和主体分层，防止效果溢出。"
+    },
+    {
+      "id": "S23",
+      "type": "研究论文",
+      "title": "MatchDiffusion：Training-free Generation of Match-cuts",
+      "learn": "生成式匹配剪辑研究",
+      "url": "https://arxiv.org/abs/2411.18677",
+      "likes": null,
+      "views": null,
+      "stars": null,
+      "evidence": "论文摘要已读取；2024-11-27提交",
+      "notes": "是研究方法，不代表任意视频模型仅靠一句提示词就能复现。"
+    },
+    {
+      "id": "S24",
+      "type": "官方指南",
+      "title": "Runway：Image to Video Prompting Guide",
+      "learn": "描述运动、由上一段末帧继续生成",
+      "url": "https://help.runwayml.com/hc/en-us/articles/48324313115155-Image-to-Video-Prompting-Guide",
+      "likes": null,
+      "views": null,
+      "stars": null,
+      "evidence": "官方搜索摘要；无点赞",
+      "notes": "本表生成式prompt为改写建议；首尾帧支持取决于具体模型。"
+    },
+    {
+      "id": "S25",
+      "type": "官方代码",
+      "title": "Runway SDK：image_to_video",
+      "learn": "首帧与可选尾帧输入能力",
+      "url": "https://github.com/runwayml/sdk-python/blob/main/src/runwayml/resources/image_to_video.py",
+      "likes": null,
+      "views": null,
+      "stars": null,
+      "evidence": "官方代码搜索摘要；未记录仓库热度",
+      "notes": "给模型提供A末帧与B首帧；先确认所选模型与接口参数支持。"
+    },
+    {
+      "id": "S26",
+      "type": "社交讨论",
+      "title": "Reddit：How do I do this dissolving transition",
+      "learn": "社区对亮度蒙版的辨认",
+      "url": "https://www.reddit.com/r/premiere/comments/1hoap6w",
+      "likes": null,
+      "views": null,
+      "stars": null,
+      "evidence": "帖子搜索摘要；投票数未核实",
+      "notes": "仅作为术语与需求线索，操作依据使用S06、S10。"
+    },
+    {
+      "id": "S27",
+      "type": "YouTube 官方教程",
+      "title": "Adobe Live：Light Leak Transitions",
+      "learn": "漏光转场示范",
+      "url": "https://www.youtube.com/watch?v=vF64-jXd1Ek",
+      "likes": null,
+      "views": null,
+      "stars": null,
+      "evidence": "官方频道搜索摘要；互动数未核实",
+      "notes": "与S11结合学习；不把频道粉丝数作为作品热度。"
+    }
+  ]
+}
